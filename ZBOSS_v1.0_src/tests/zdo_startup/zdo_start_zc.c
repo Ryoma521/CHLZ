@@ -91,7 +91,7 @@ MAIN()
 #ifndef ZB8051
   ZB_INIT("zdo_zc", argv[1], argv[2]);
 #else
-  ZB_INIT("zdo_zc", "1", "1");
+  ZB_INIT("zdo_zc", "1", "1"); //Ryoma
 #endif
 #ifdef ZB_SECURITY
   ZG->nwk.nib.security_level = 0;

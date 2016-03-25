@@ -12,7 +12,7 @@
       <name>C-SPY</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>8</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -118,42 +118,6 @@
         <option>
           <name>DdfFile master</name>
           <state>$TOOLKIT_DIR$\config\devices\_generic\io8052.ddf</state>
-        </option>
-        <option>
-          <name>OCImagesOffset1</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesOffset2</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesOffset3</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesUse1</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OCImagesUse2</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OCImagesUse3</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Exclude Exit Breakpoint</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>Exclude Putchar Breakpoint</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Exclude Getchar Breakpoint</name>
-          <state>0</state>
         </option>
       </data>
     </settings>
@@ -327,7 +291,7 @@
       <name>INFINEON_ID</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>1</version>
+        <version>0</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -351,6 +315,10 @@
           <state>localhost</state>
         </option>
         <option>
+          <name>InfServerName</name>
+          <state></state>
+        </option>
+        <option>
           <name>InfKey1</name>
           <state>0</state>
         </option>
@@ -372,11 +340,6 @@
         </option>
         <option>
           <name>InfineonSwBp</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>InfServerName2</name>
-          <version>0</version>
           <state>0</state>
         </option>
       </data>
@@ -596,27 +559,56 @@
       </data>
     </settings>
     <settings>
+      <name>_SENSIUM_ID</name>
+      <archiveVersion>1</archiveVersion>
+      <data>
+        <version>0</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>1</debug>
+        <option>
+          <name>TI Sensium Driver Mandatory</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver File Name Edit</name>
+          <state>tiSensiumDbg.dll</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver LogFile Check</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver LogFile Edit</name>
+          <state>cspycomm.log</state>
+        </option>
+        <option>
+          <name>SensiumSuppressDownload</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumVerifyDownload</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumES2</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumProgramEPROM</name>
+          <state>0</state>
+        </option>
+      </data>
+    </settings>
+    <settings>
       <name>SIM_ID</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>2</version>
+        <version>1</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
           <name>SimDriverMandatory</name>
           <state>1</state>
-        </option>
-        <option>
-          <name>SimEnablePSP</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>SimPspOverrideConfig</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>SimPspConfigFile</name>
-          <state>###Uninitialized###</state>
         </option>
       </data>
     </settings>
@@ -628,6 +620,10 @@
       <plugin>
         <file>$EW_DIR$\common\plugins\Orti\Orti.ENU.ewplugin</file>
         <loadFlag>0</loadFlag>
+      </plugin>
+      <plugin>
+        <file>$EW_DIR$\common\plugins\Profiling\Profiling.ENU.ewplugin</file>
+        <loadFlag>1</loadFlag>
       </plugin>
       <plugin>
         <file>$EW_DIR$\common\plugins\Stack\Stack.ENU.ewplugin</file>
@@ -649,7 +645,7 @@
       <name>C-SPY</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>8</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -755,42 +751,6 @@
         <option>
           <name>DdfFile master</name>
           <state>$TOOLKIT_DIR$\config\devices\_generic\io8052.ddf</state>
-        </option>
-        <option>
-          <name>OCImagesOffset1</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesOffset2</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesOffset3</name>
-          <state></state>
-        </option>
-        <option>
-          <name>OCImagesUse1</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OCImagesUse2</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>OCImagesUse3</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Exclude Exit Breakpoint</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>Exclude Putchar Breakpoint</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Exclude Getchar Breakpoint</name>
-          <state>0</state>
         </option>
       </data>
     </settings>
@@ -964,7 +924,7 @@
       <name>INFINEON_ID</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>1</version>
+        <version>0</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -988,6 +948,10 @@
           <state>localhost</state>
         </option>
         <option>
+          <name>InfServerName</name>
+          <state></state>
+        </option>
+        <option>
           <name>InfKey1</name>
           <state>0</state>
         </option>
@@ -1009,11 +973,6 @@
         </option>
         <option>
           <name>InfineonSwBp</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>InfServerName2</name>
-          <version>0</version>
           <state>0</state>
         </option>
       </data>
@@ -1233,27 +1192,56 @@
       </data>
     </settings>
     <settings>
+      <name>_SENSIUM_ID</name>
+      <archiveVersion>1</archiveVersion>
+      <data>
+        <version>0</version>
+        <wantNonLocal>1</wantNonLocal>
+        <debug>0</debug>
+        <option>
+          <name>TI Sensium Driver Mandatory</name>
+          <state>1</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver File Name Edit</name>
+          <state>tiSensiumDbg.dll</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver LogFile Check</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>TI Sensium Driver LogFile Edit</name>
+          <state>cspycomm.log</state>
+        </option>
+        <option>
+          <name>SensiumSuppressDownload</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumVerifyDownload</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumES2</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>SensiumProgramEPROM</name>
+          <state>0</state>
+        </option>
+      </data>
+    </settings>
+    <settings>
       <name>SIM_ID</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>2</version>
+        <version>1</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
           <name>SimDriverMandatory</name>
           <state>1</state>
-        </option>
-        <option>
-          <name>SimEnablePSP</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>SimPspOverrideConfig</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>SimPspConfigFile</name>
-          <state>###Uninitialized###</state>
         </option>
       </data>
     </settings>
@@ -1265,6 +1253,10 @@
       <plugin>
         <file>$EW_DIR$\common\plugins\Orti\Orti.ENU.ewplugin</file>
         <loadFlag>0</loadFlag>
+      </plugin>
+      <plugin>
+        <file>$EW_DIR$\common\plugins\Profiling\Profiling.ENU.ewplugin</file>
+        <loadFlag>1</loadFlag>
       </plugin>
       <plugin>
         <file>$EW_DIR$\common\plugins\Stack\Stack.ENU.ewplugin</file>

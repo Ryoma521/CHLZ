@@ -1,0 +1,3500 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2474653034</fileChecksum>
+  <configuration>
+    <name>Zboss-CC25XX-Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_dups.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_bind.r51</file>
+      <file>$PROJ_DIR$\aps\aps_commands.c</file>
+      <file>$PROJ_DIR$\aps\aps_bind.c</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_main.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_commands.r51</file>
+      <file>$PROJ_DIR$\aps\aps_dups.c</file>
+      <file>$PROJ_DIR$\aps\aps_main.c</file>
+      <file>$PROJ_DIR$\aps\aps_nwk_confirm.c</file>
+      <file>$PROJ_DIR$\common\zb_address.c</file>
+      <file>$PROJ_DIR$\common\zb_bufpool.c</file>
+      <file>$PROJ_DIR$\common\zb_bufpool_init.c</file>
+      <file>$PROJ_DIR$\common\zb_debug.c</file>
+      <file>$PROJ_DIR$\common\zb_ib.c</file>
+      <file>$PROJ_DIR$\common\zb_init.c</file>
+      <file>$PROJ_DIR$\common\zb_random.c</file>
+      <file>$PROJ_DIR$\common\zb_scheduler.c</file>
+      <file>$PROJ_DIR$\common\zb_scheduler_init.c</file>
+      <file>$PROJ_DIR$\common\zb_time.c</file>
+      <file>$PROJ_DIR$\common\zb_trace.c</file>
+      <file>$PROJ_DIR$\mac\mac.c</file>
+      <file>$PROJ_DIR$\mac\mac_associate.c</file>
+      <file>$PROJ_DIR$\mac\mac_common.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_associate.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_coordinator.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_data.c</file>
+      <file>$PROJ_DIR$\mac\mac_data.c</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_scan.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_cc25xx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_discovery.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_cc25xx_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_formation.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_address_assign.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_formation.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_route_discovery.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_mesh_routing.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_permit_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_tree_routing.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_neighbor.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_main.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_nlme.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_serial_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_direct.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_panid_conflict.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_nvram.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_dummy.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_serial.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_ser.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_xram.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_spi.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_spi_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_spi.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_sysinit.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time_8051_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time_8051.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_TI_cc25xx_secur_ccm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\apsme_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_trace_8051.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\secur_ccm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_start_ze.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\af_descriptor.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\af_rx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_app.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_disc_cli.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_bind_manage.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_disc_srv.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_channel_manager.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_debug.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_rx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_nwk_manage_cli.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_commands.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_nwk_manage_srv.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_dups.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_bind.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_main.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_nwk_confirm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_address.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_bufpool.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_bufpool_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_bufpool.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_address.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_nwk_confirm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_bufpool_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_debug.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_ib.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_random.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_trace.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_scheduler.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_scheduler_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_associate.r51</file>
+      <file>$PROJ_DIR$\zdo\zdo_common.h</file>
+      <file>$PROJ_DIR$\zdo\zdo_disc_cli.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_disc_srv.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_nwk_manage_cli.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_nwk_manage_srv.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_rx.c</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_data.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_associate.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_data.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_disturber.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_coordinator.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_routines.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_fcs.r51</file>
+      <file>$PROJ_DIR$\mac\mac_disturber.c</file>
+      <file>$PROJ_DIR$\mac\mac_fcs.c</file>
+      <file>$PROJ_DIR$\mac\mac_routines.c</file>
+      <file>$PROJ_DIR$\mac\mac_scan.c</file>
+      <file>$PROJ_DIR$\mac\zb_cc25xx.c</file>
+      <file>$PROJ_DIR$\mac\zb_cc25xx_common.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_address_assign.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_formation.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_mesh_routing.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_permit_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_discovery.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_tree_routing.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_route_discovery.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_formation.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_main.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_neighbor.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_nlme.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_panid_conflict.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_dummy.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_nvram.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_serial.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_serial_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_spi.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_direct.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_xram.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_spi_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_ser.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_spi.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_sysinit.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_time_8051.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_time_8051_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_trace_8051.c</file>
+      <file>$PROJ_DIR$\secur\aps_secur.c</file>
+      <file>$PROJ_DIR$\secur\apsme_secur.c</file>
+      <file>$PROJ_DIR$\secur\nwk_secur.c</file>
+      <file>$PROJ_DIR$\secur\secur_ccm.c</file>
+      <file>$PROJ_DIR$\secur\zb_TI_cc25xx_secur_ccm.c</file>
+      <file>$PROJ_DIR$\secur\zdo_secur.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_zc.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_ze.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_zr.c</file>
+      <file>$PROJ_DIR$\zdo\af_descriptor.c</file>
+      <file>$PROJ_DIR$\zdo\af_rx.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_app.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_bind_manage.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_channel_manager.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_common.c</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_ib.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_formation.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_random.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_scheduler.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_scheduler_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_trace.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_associate.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_associate.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_coordinator.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_cr_data.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_data.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_disturber.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_fcs.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_routines.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\mac_scan.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_cc25xx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_cc25xx_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_address_assign.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_formation.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_mesh_routing.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_permit_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_route_discovery.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_cr_tree_routing.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_discovery.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Exe\zboss_open_source.d51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_main.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_neighbor.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_nlme.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_panid_conflict.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_dummy.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_nvram.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_serial.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_serial_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_spi.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_spi_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_8051_xram.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_direct.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_ser.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_mac_transport_8051_spi.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_sysinit.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time_8051.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_time_8051_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_trace_8051.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\aps_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\apsme_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\nwk_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\secur_ccm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zb_TI_cc25xx_secur_ccm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_start_ze.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\af_descriptor.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\af_rx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_app.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_bind_manage.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_channel_manager.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_disc_cli.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_disc_srv.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_nwk_manage_cli.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_nwk_manage_srv.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zdo_rx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Debug\Obj\zboss_open_source.pbd</file>
+      <file>$PROJ_DIR$\include\zb_config.h</file>
+      <file>$PROJ_DIR$\include\zb_common.h</file>
+      <file>$PROJ_DIR$\include\zb_errors.h</file>
+      <file>$PROJ_DIR$\include\zb_types.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_osif.h</file>
+      <file>$PROJ_DIR$\include\zb_debug.h</file>
+      <file>$PROJ_DIR$\include\zb_g_context.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_osif_8051.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\include\zb_scheduler.h</file>
+      <file>$PROJ_DIR$\include\zb_ringbuffer.h</file>
+      <file>$PROJ_DIR$\include\zb_list_macros.h</file>
+      <file>$PROJ_DIR$\include\zb_time.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_time.h</file>
+      <file>$PROJ_DIR$\include\zb_bufpool.h</file>
+      <file>$PROJ_DIR$\include\zb_pooled_list.h</file>
+      <file>$PROJ_DIR$\include\zb_addr_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_bufpool_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_address.h</file>
+      <file>$PROJ_DIR$\include\zb_mac_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_mac.h</file>
+      <file>$PROJ_DIR$\include\zb_ubec24xx.h</file>
+      <file>$PROJ_DIR$\include\zb_ns3.h</file>
+      <file>$PROJ_DIR$\include\zb_cc25xx.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_neighbor.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_nib.h</file>
+      <file>$PROJ_DIR$\include\zb_aps_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_af_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_test_profile.h</file>
+      <file>$PROJ_DIR$\include\zb_zdo_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_zcl_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_zcl.h</file>
+      <file>$PROJ_DIR$\include\zb_transport_8051.h</file>
+      <file>$PROJ_DIR$\include\zb_transport_globals.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_serial.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_spi.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_6.h</file>
+      <file>$PROJ_DIR$\include\zb_trace.h</file>
+      <file>$PROJ_DIR$\include\zb_aps.h</file>
+      <file>$PROJ_DIR$\aps\aps_internal.h</file>
+      <file>$PROJ_DIR$\include\zb_hash.h</file>
+      <file>$PROJ_DIR$\include\zb_zdo.h</file>
+      <file>$PROJ_DIR$\include\zb_secur.h</file>
+      <file>$PROJ_DIR$\include\zb_mac_transport.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_common.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_7.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_1.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_a.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_2.h</file>
+      <file>$PROJ_DIR$\mac\mac_internal.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_commands.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 276 279 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_bind.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 276 277 278 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_dups.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 276 277 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 279 276 278 282</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_nwk_confirm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 240 231 230 233 232 235 236 234 237 238 239 241 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 278 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_address.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 277 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_bufpool.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 240 231 230 233 232 235 236 234 237 238 239 241 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_bufpool_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242 240 231 230 233 232 235 236 234 237 238 239 241 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_ib.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 275 279 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 280 275 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_random.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_scheduler.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_scheduler_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 273</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_time.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_trace.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 281</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 280 283</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_associate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 280 285 278</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_associate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_coordinator.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_data.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 280 279 278 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_data.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 280 279 278 283</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_disc_cli.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_disc_srv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_nwk_manage_cli.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_nwk_manage_srv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_rx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_disturber.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 230 233 232 235 236 234 237 238 239 240 241 242 243 244 246 247 248 245 252 249 251 250 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 270 269 271 272 274 286 280 279 278 283</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_fcs.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_routines.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_scan.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\zb_cc25xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\zb_cc25xx_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_address_assign.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_formation.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_mesh_routing.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_permit_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_tree_routing.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_route_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_formation.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_nlme.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_panid_conflict.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_dummy.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_nvram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_serial_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_direct.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_xram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_spi_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_ser.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_time_8051.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_time_8051_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_trace_8051.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\aps_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\apsme_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\nwk_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\secur_ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\zb_TI_cc25xx_secur_ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\zdo_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tests\zdo_startup\zdo_start_ze.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\af_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\af_rx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_app.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_bind_manage.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_channel_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Zboss-CC25XX-Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\aps\aps_commands.c</file>
+      <file>$PROJ_DIR$\aps\aps_bind.c</file>
+      <file>$PROJ_DIR$\aps\aps_dups.c</file>
+      <file>$PROJ_DIR$\aps\aps_main.c</file>
+      <file>$PROJ_DIR$\aps\aps_nwk_confirm.c</file>
+      <file>$PROJ_DIR$\common\zb_address.c</file>
+      <file>$PROJ_DIR$\common\zb_bufpool.c</file>
+      <file>$PROJ_DIR$\common\zb_bufpool_init.c</file>
+      <file>$PROJ_DIR$\common\zb_debug.c</file>
+      <file>$PROJ_DIR$\common\zb_ib.c</file>
+      <file>$PROJ_DIR$\common\zb_init.c</file>
+      <file>$PROJ_DIR$\common\zb_random.c</file>
+      <file>$PROJ_DIR$\common\zb_scheduler.c</file>
+      <file>$PROJ_DIR$\common\zb_scheduler_init.c</file>
+      <file>$PROJ_DIR$\common\zb_time.c</file>
+      <file>$PROJ_DIR$\common\zb_trace.c</file>
+      <file>$PROJ_DIR$\mac\mac.c</file>
+      <file>$PROJ_DIR$\mac\mac_associate.c</file>
+      <file>$PROJ_DIR$\mac\mac_common.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_associate.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_coordinator.c</file>
+      <file>$PROJ_DIR$\mac\mac_cr_data.c</file>
+      <file>$PROJ_DIR$\mac\mac_data.c</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_start_zc.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_start_zc.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_random.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_ib.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_debug.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_bufpool_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_nwk_confirm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_bufpool.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_address.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_commands.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_main.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_dups.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_bind.r51</file>
+      <file>$PROJ_DIR$\zdo\zdo_common.h</file>
+      <file>$PROJ_DIR$\zdo\zdo_disc_cli.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_disc_srv.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_nwk_manage_cli.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_nwk_manage_srv.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_rx.c</file>
+      <file>$PROJ_DIR$\mac\mac_disturber.c</file>
+      <file>$PROJ_DIR$\mac\mac_fcs.c</file>
+      <file>$PROJ_DIR$\mac\mac_routines.c</file>
+      <file>$PROJ_DIR$\mac\mac_scan.c</file>
+      <file>$PROJ_DIR$\mac\zb_cc25xx.c</file>
+      <file>$PROJ_DIR$\mac\zb_cc25xx_common.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_address_assign.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_formation.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_mesh_routing.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_permit_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_discovery.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_tree_routing.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_cr_route_discovery.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_formation.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_internal.h</file>
+      <file>$PROJ_DIR$\nwk\nwk_join.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_main.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_neighbor.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_nlme.c</file>
+      <file>$PROJ_DIR$\nwk\nwk_panid_conflict.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_dummy.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_nvram.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_serial.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_serial_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_spi.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_direct.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_xram.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_8051_spi_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_ser.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_spi.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_sysinit.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_time_8051.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_time_8051_init.c</file>
+      <file>$PROJ_DIR$\osif\8051\zb_trace_8051.c</file>
+      <file>$PROJ_DIR$\secur\aps_secur.c</file>
+      <file>$PROJ_DIR$\secur\apsme_secur.c</file>
+      <file>$PROJ_DIR$\secur\mac_secur.c</file>
+      <file>$PROJ_DIR$\secur\nwk_secur.c</file>
+      <file>$PROJ_DIR$\secur\secur_ccm.c</file>
+      <file>$PROJ_DIR$\secur\zb_TI_cc25xx_secur_ccm.c</file>
+      <file>$PROJ_DIR$\secur\zdo_secur.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_zc.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_ze.c</file>
+      <file>$PROJ_DIR$\tests\zdo_startup\zdo_start_zr.c</file>
+      <file>$PROJ_DIR$\zdo\af_descriptor.c</file>
+      <file>$PROJ_DIR$\zdo\af_rx.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_app.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_bind_manage.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_channel_manager.c</file>
+      <file>$PROJ_DIR$\zdo\zdo_common.c</file>
+      <file>$PROJ_DIR$\include\zb_config.h</file>
+      <file>$PROJ_DIR$\include\zb_common.h</file>
+      <file>$PROJ_DIR$\include\zb_errors.h</file>
+      <file>$PROJ_DIR$\include\zb_types.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_osif.h</file>
+      <file>$PROJ_DIR$\include\zb_debug.h</file>
+      <file>$PROJ_DIR$\include\zb_g_context.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_osif_8051.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_nlme.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_serial_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_direct.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_panid_conflict.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_nvram.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_dummy.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_serial.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_ser.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_xram.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_spi.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_spi_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_spi.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time_8051_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_sysinit.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\apsme_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time_8051.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_TI_cc25xx_secur_ccm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_trace_8051.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\secur_ccm.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_secur.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_start_ze.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\af_descriptor.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\af_rx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_app.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_disc_cli.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_bind_manage.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_disc_srv.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_channel_manager.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_routines.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_rx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_nwk_manage_cli.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_dups.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_nwk_manage_srv.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_commands.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_bind.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_main.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_nwk_confirm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_address.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_bufpool.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_bufpool_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_debug.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_ib.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_random.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_scheduler.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_scheduler_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_trace.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_associate.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_associate.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_coordinator.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_data.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_data.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_disturber.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_fcs.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\include\zb_scheduler.h</file>
+      <file>$PROJ_DIR$\include\zb_ringbuffer.h</file>
+      <file>$PROJ_DIR$\include\zb_list_macros.h</file>
+      <file>$PROJ_DIR$\include\zb_time.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_time.h</file>
+      <file>$PROJ_DIR$\include\zb_bufpool.h</file>
+      <file>$PROJ_DIR$\include\zb_pooled_list.h</file>
+      <file>$PROJ_DIR$\include\zb_addr_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_bufpool_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_address.h</file>
+      <file>$PROJ_DIR$\include\zb_mac_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_mac.h</file>
+      <file>$PROJ_DIR$\include\zb_ubec24xx.h</file>
+      <file>$PROJ_DIR$\include\zb_ns3.h</file>
+      <file>$PROJ_DIR$\include\zb_cc25xx.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_neighbor.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk.h</file>
+      <file>$PROJ_DIR$\include\zb_nwk_nib.h</file>
+      <file>$PROJ_DIR$\include\zb_aps_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_af_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_test_profile.h</file>
+      <file>$PROJ_DIR$\include\zb_zdo_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_zcl_globals.h</file>
+      <file>$PROJ_DIR$\include\zb_zcl.h</file>
+      <file>$PROJ_DIR$\include\zb_transport_8051.h</file>
+      <file>$PROJ_DIR$\include\zb_transport_globals.h</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_trace.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_scheduler.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_scheduler_init.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_associate.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_data.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_data.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_associate.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_disturber.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_cr_coordinator.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_routines.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_fcs.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_scan.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_cc25xx.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_discovery.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_cc25xx_common.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_formation.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_address_assign.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_formation.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_route_discovery.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_mesh_routing.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_permit_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_tree_routing.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_join.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_neighbor.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_main.r51</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\mac_scan.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Exe\zboss_open_source.hex</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_cc25xx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_address_assign.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_cc25xx_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_formation.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_mesh_routing.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_permit_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_route_discovery.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_cr_tree_routing.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_discovery.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_formation.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_join.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_main.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_neighbor.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_nlme.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_panid_conflict.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_dummy.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_nvram.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_serial.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_serial_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_spi.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_spi_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_8051_xram.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_direct.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_ser.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_mac_transport_8051_spi.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_sysinit.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time_8051.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_time_8051_init.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_trace_8051.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\aps_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\apsme_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\nwk_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\secur_ccm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zb_TI_cc25xx_secur_ccm.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_secur.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_start_ze.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\af_descriptor.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\af_rx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_app.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_bind_manage.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_channel_manager.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_common.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_disc_cli.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_disc_srv.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_nwk_manage_cli.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_nwk_manage_srv.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zdo_rx.pbi</file>
+      <file>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zboss_open_source.pbd</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_serial.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_8051_spi.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_6.h</file>
+      <file>$PROJ_DIR$\include\zb_trace.h</file>
+      <file>$PROJ_DIR$\include\zb_aps.h</file>
+      <file>$PROJ_DIR$\aps\aps_internal.h</file>
+      <file>$PROJ_DIR$\include\zb_hash.h</file>
+      <file>$PROJ_DIR$\include\zb_zdo.h</file>
+      <file>$PROJ_DIR$\include\zb_secur.h</file>
+      <file>$PROJ_DIR$\include\zb_mac_transport.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_common.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_7.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_1.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_a.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_2.h</file>
+      <file>$PROJ_DIR$\mac\mac_internal.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_5.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_3.h</file>
+      <file>$PROJ_DIR$\include\zb_magic_macros.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_4.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_9.h</file>
+      <file>$PROJ_DIR$\osif\include\zb_bank_8.h</file>
+      <file>$PROJ_DIR$\include\zb_secur_api.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 227</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_commands.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 285 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 285 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_bind.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 283 284 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 283 284 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_dups.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 283 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 283 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 282 284 288</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 282 284 288</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\aps\aps_nwk_confirm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_address.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 290</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 290</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_bufpool.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_bufpool_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_ib.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 281 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 281 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_random.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_scheduler.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_scheduler_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_time.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\common\zb_trace.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 289</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 289</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_associate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 291 284</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 291 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_associate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_coordinator.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_cr_data.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_data.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 289</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 289</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_disc_cli.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 297</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_disc_srv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 297</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_nwk_manage_cli.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_nwk_manage_srv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 142</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 285 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 285 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_rx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 39 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 39 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_disturber.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 289</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285 284 289</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_fcs.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_routines.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\mac_scan.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 291</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\zb_cc25xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 292 286 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mac\zb_cc25xx_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_address_assign.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 294</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 294</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_formation.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 293</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 293</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 281 60 295 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 281 60 295 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_mesh_routing.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 293</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 293</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_permit_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 293</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 293</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_tree_routing.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_cr_route_discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 293</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 293</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_formation.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 294</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 295 294</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_join.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 281 60 295 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 281 60 295 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 294</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 294</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 295 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 295 296</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_nlme.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168 106 97 96 99 98 101 102 100 103 104 105 167 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\nwk\nwk_panid_conflict.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 60 285 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_dummy.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_nvram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_serial_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_direct.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_xram.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_8051_spi_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_ser.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_mac_transport_8051_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 118</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_time_8051.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_time_8051_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\osif\8051\zb_trace_8051.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 105 106 97 96 99 98 101 102 100 103 104 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 106 97 96 99 98 101 102 100 103 104 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\aps_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 282 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\apsme_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\nwk_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\secur_ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\zb_TI_cc25xx_secur_ccm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\secur\zdo_secur.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 285 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 285 287</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tests\zdo_startup\zdo_start_zc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tests\zdo_startup\zdo_start_ze.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 264</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\af_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 297</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\af_rx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 39 288</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 39 288</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_app.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 285 299 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 281 284 285 299 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_bind_manage.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 290</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 290</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_channel_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 290</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 290</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\zdo\zdo_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 96 99 98 101 102 100 103 104 105 106 167 168 169 170 172 173 174 171 178 175 177 176 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 196 195 277 278 280 283 281 284 39 298</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\out\Zboss-CC25XX-Release\Exe\zboss_open_source.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 130 131 38 35 37 36 32 119 122 200 203 202 206 208 204 205 207 210 209 211 217 216 213 220 221 219 222 214 218 223 225 224 107 110 126 127 112 111 113 108 116 117 115 124 34 33 31 212 215 30 29 27 109 114 118 28 199 201 121 198 123 120 197 125 132 135 137 133 134 136 140 142 139 128 26 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\out\Zboss-CC25XX-Release\Obj\zboss_open_source.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 265 266 144 143 141 145 146 258 259 158 159 160 161 162 163 164 165 166 138 226 229 231 232 233 234 235 236 237 238 239 240 241 242 243 260 261 244 245 246 247 248 249 250 262 147 148 149 228 230 150 151 152 251 252 253 153 154 155 254 156 255 256 157 257 267 268 269 270 271 272 273 274 275 263 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\secur\mac_secur.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\tests\zdo_startup\zdo_start_ze.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\tests\zdo_startup\zdo_start_zr.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
