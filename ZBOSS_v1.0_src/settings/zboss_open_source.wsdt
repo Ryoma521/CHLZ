@@ -2,19 +2,17 @@
 
 <Workspace>
   <ConfigDictionary>
-    <CurrentConfigs>
-      <Project>zboss_open_source/Zboss-CC25XX-Release</Project>
-    </CurrentConfigs>
-  </ConfigDictionary>
+    
+  <CurrentConfigs><Project>zboss_open_source/Zboss-CC25XX-Release</Project></CurrentConfigs></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>296</Column0>
-          <Column1>27</Column1>
-          <Column2>27</Column2>
-          <Column3>27</Column3>
-        </ColumnWidths>
+          
+          
+          
+          
+        <Column0>371</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
         <ColumnWidth0>20</ColumnWidth0>
@@ -34,190 +32,45 @@
       </Build>
       <Find-in-Files>
         <PreferedWindows>
-          <Position>3</Position>
-          <ScreenPosX>0</ScreenPosX>
-          <ScreenPosY>0</ScreenPosY>
-          <Windows/>
-        </PreferedWindows>
-        <ColumnWidth0>470</ColumnWidth0>
-        <ColumnWidth1>67</ColumnWidth1>
-        <ColumnWidth2>806</ColumnWidth2>
-      </Find-in-Files>
+          
+          
+          
+          
+        <Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+        
+      <ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files>
     </Static>
     <Windows>
-      <Wnd0>
+      
+      
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-19059-29242</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              <NodeDict>
-                <ExpandedNode>zboss_open_source</ExpandedNode>
-                <ExpandedNode>zboss_open_source/common</ExpandedNode>
-                <ExpandedNode>zboss_open_source/mac</ExpandedNode>
-                <ExpandedNode>zboss_open_source/osif</ExpandedNode>
-                <ExpandedNode>zboss_open_source/osif/8051</ExpandedNode>
-                <ExpandedNode>zboss_open_source/tests</ExpandedNode>
-                <ExpandedNode>zboss_open_source/tests/zdo_startup</ExpandedNode>
-              </NodeDict>
-            </Session>
+              
+            <NodeDict><ExpandedNode>zboss_open_source</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd0>
-      <Wnd1>
-        <Tabs>
-          <Tab>
-            <Identity>TabID-20888-26716</Identity>
-            <TabName>Find in Files</TabName>
-            <Factory>Find-in-Files</Factory>
-            <Session/>
-          </Tab>
-        </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd1>
-    </Windows>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-29966-16269</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
-      <Pane>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\tests\zdo_startup\zdo_start_zc.c</Filename>
-          <XPos>0</XPos>
-          <YPos>110</YPos>
-          <SelStart>4918</SelStart>
-          <SelEnd>4918</SelEnd>
-        </Tab>
-        <ActiveTab>0</ActiveTab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\mac\zb_cc25xx.c</Filename>
-          <XPos>0</XPos>
-          <YPos>127</YPos>
-          <SelStart>5543</SelStart>
-          <SelEnd>5543</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\mac\zb_cc25xx_common.c</Filename>
-          <XPos>0</XPos>
-          <YPos>39</YPos>
-          <SelStart>4017</SelStart>
-          <SelEnd>4017</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\include\zb_cc25xx.h</Filename>
-          <XPos>0</XPos>
-          <YPos>66</YPos>
-          <SelStart>4244</SelStart>
-          <SelEnd>4244</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\..\..\Program Files\IAR Systems\Embedded Workbench 6.0 Evaluation\8051\inc\ioCC2530.h</Filename>
-          <XPos>0</XPos>
-          <YPos>328</YPos>
-          <SelStart>19715</SelStart>
-          <SelEnd>19715</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\common\zb_init.c</Filename>
-          <XPos>0</XPos>
-          <YPos>62</YPos>
-          <SelStart>3929</SelStart>
-          <SelEnd>3929</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\zdo\zdo_app.c</Filename>
-          <XPos>0</XPos>
-          <YPos>98</YPos>
-          <SelStart>5400</SelStart>
-          <SelEnd>5400</SelEnd>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\common\zb_scheduler.c</Filename>
-          <XPos>0</XPos>
-          <YPos>85</YPos>
-          <SelStart>4997</SelStart>
-          <SelEnd>5013</SelEnd>
-        </Tab>
-      </Pane>
-      <ActivePane>0</ActivePane>
-      <Sizes>
-        <Pane>
-          <X>1000000</X>
-          <Y>1000000</Y>
-        </Pane>
-      </Sizes>
-      <SplitMode>1</SplitMode>
-    </Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mac\zb_cc25xx.c</Filename><XPos>0</XPos><YPos>69</YPos><SelStart>4607</SelStart><SelEnd>4607</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mac\zb_cc25xx_common.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>4017</SelStart><SelEnd>4017</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_mac_transport_8051_direct.c</Filename><XPos>0</XPos><YPos>50</YPos><SelStart>3757</SelStart><SelEnd>3757</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_mac_transport_8051_ser.c</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>3999</SelStart><SelEnd>3999</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_mac_transport_8051_spi.c</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>3945</SelStart><SelEnd>3956</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_8051_spi_init.c</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>4915</SelStart><SelEnd>4959</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\include\zb_osif_8051.h</Filename><XPos>0</XPos><YPos>200</YPos><SelStart>7075</SelStart><SelEnd>7075</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_mac.h</Filename><XPos>0</XPos><YPos>2737</YPos><SelStart>97899</SelStart><SelEnd>97899</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mac\mac.c</Filename><XPos>0</XPos><YPos>309</YPos><SelStart>12364</SelStart><SelEnd>12364</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_ringbuffer.h</Filename><XPos>0</XPos><YPos>114</YPos><SelStart>3792</SelStart><SelEnd>3808</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_cc25xx.h</Filename><XPos>0</XPos><YPos>61</YPos><SelStart>4221</SelStart><SelEnd>4221</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_bufpool.h</Filename><XPos>0</XPos><YPos>92</YPos><SelStart>5232</SelStart><SelEnd>5232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_time.h</Filename><XPos>0</XPos><YPos>153</YPos><SelStart>7355</SelStart><SelEnd>7355</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_scheduler.h</Filename><XPos>0</XPos><YPos>185</YPos><SelStart>8565</SelStart><SelEnd>8565</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\common\zb_scheduler.c</Filename><XPos>0</XPos><YPos>85</YPos><SelStart>4997</SelStart><SelEnd>5013</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\zdo\zdo_app.c</Filename><XPos>0</XPos><YPos>98</YPos><SelStart>5396</SelStart><SelEnd>5396</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\include\zb_g_context.h</Filename><XPos>0</XPos><YPos>146</YPos><SelStart>6184</SelStart><SelEnd>6189</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\common\zb_init.c</Filename><XPos>0</XPos><YPos>61</YPos><SelStart>3901</SelStart><SelEnd>3901</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_time_8051.c</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>4304</SelStart><SelEnd>4304</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\include\zb_8051_time.h</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>4076</SelStart><SelEnd>4096</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\tests\zdo_startup\zdo_start_zc.c</Filename><XPos>0</XPos><YPos>99</YPos><SelStart>4921</SelStart><SelEnd>4921</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_time_8051_init.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>5025</SelStart><SelEnd>5025</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\8051\zb_8051_spi.c</Filename><XPos>0</XPos><YPos>49</YPos><SelStart>3844</SelStart><SelEnd>3844</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\osif\include\zb_8051_spi.h</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>3653</SelStart><SelEnd>3653</SelEnd></Tab><ActiveTab>23</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
-      <Top>
-        <Row0>
-          <Sizes>
-            <Toolbar-01ebdc90>
-              <key>iaridepm.enu1</key>
-            </Toolbar-01ebdc90>
-          </Sizes>
-        </Row0>
-      </Top>
-      <Left>
-        <Row0>
-          <Sizes>
-            <Wnd0>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>443</Bottom>
-                <Right>387</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>200</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>146413</sizeHorzCX>
-                <sizeHorzCY>291545</sizeHorzCY>
-                <sizeVertCX>284773</sizeVertCX>
-                <sizeVertCY>648688</sizeVertCY>
-              </Rect>
-            </Wnd0>
-          </Sizes>
-        </Row0>
-      </Left>
-      <Right>
-        <Row0>
-          <Sizes/>
-        </Row0>
-      </Right>
-      <Bottom>
-        <Row0>
-          <Sizes>
-            <Wnd1>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>198</Bottom>
-                <Right>1368</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>1370</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>1002928</sizeHorzCX>
-                <sizeHorzCY>291545</sizeHorzCY>
-                <sizeVertCX>146413</sizeVertCX>
-                <sizeVertCY>291545</sizeVertCY>
-              </Rect>
-            </Wnd1>
-          </Sizes>
-        </Row0>
-      </Bottom>
-      <Float>
-        <Sizes/>
-      </Float>
-    </Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-011edc90><key>iaridepm.enu1</key></Toolbar-011edc90></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>483</Bottom><Right>445</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>327233</sizeVertCX><sizeVertCY>668044</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>275482</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>275482</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
