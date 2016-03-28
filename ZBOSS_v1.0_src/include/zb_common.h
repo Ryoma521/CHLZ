@@ -59,6 +59,8 @@ PURPOSE: Common include file for ZigBee
 #include "zb_osif.h"
 #include "zb_trace.h"
 
+#include <stdio.h> //Ryoma
+
 /*! \addtogroup init_api */
 /*! @{ */
 

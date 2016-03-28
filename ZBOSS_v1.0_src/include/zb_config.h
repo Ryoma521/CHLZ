@@ -224,7 +224,7 @@ Some additional run-time checks.
 /**
 If defined, platform is some 8051 clone
 */
-#define ZB8051
+//#define ZB8051  //Ryoma
 #endif
 
 /**
@@ -261,7 +261,7 @@ If defined, platform is some 8051 clone
 /**
    If defined (for UZ2400), data transport is SPI
  */
-#define ZB_TRANSPORT_8051_DATA_SPI
+//#define ZB_TRANSPORT_8051_DATA_SPI //Ryoma
 #define ZB_UZ2400
 #endif
 

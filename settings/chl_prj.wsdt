@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>chl_prj/CHL_ZC_DEBUG</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>292</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        <PreferedWindows>
+          <Position>3</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+        <ColumnWidth0>16</ColumnWidth0>
+        <ColumnWidth1>983</ColumnWidth1>
+        <ColumnWidth2>262</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      </Build>
+      <Find-in-Files>
+        
+        
+        
+        
+      <ColumnWidth0>403</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>604</ColumnWidth2><ColumnWidth3>268</ColumnWidth3></Find-in-Files>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-29571-32447</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>chl_prj</ExpandedNode><ExpandedNode>chl_prj/osif</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9184-10295</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-15019-12437</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\tests\zdo_startup\zdo_start_zc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>5700</SelStart2><SelEnd2>5703</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_g_context.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>79</YPos2><SelStart2>4820</SelStart2><SelEnd2>4820</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\osif\include\zb_osif.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>55</YPos2><SelStart2>3899</SelStart2><SelEnd2>3899</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_time.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>190</YPos2><SelStart2>8298</SelStart2><SelEnd2>8298</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_scheduler.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>90</YPos2><SelStart2>5638</SelStart2><SelEnd2>5638</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_bufpool.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>142</YPos2><SelStart2>6323</SelStart2><SelEnd2>6323</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\common\zb_init.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>5198</SelStart2><SelEnd2>5198</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\common\zb_scheduler.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>164</YPos2><SelStart2>7611</SelStart2><SelEnd2>7611</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_transport_8051.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>65</YPos2><SelStart2>4453</SelStart2><SelEnd2>4479</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\aps\aps_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>42</YPos2><SelStart2>3764</SelStart2><SelEnd2>3764</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>51</YPos2><SelStart2>3801</SelStart2><SelEnd2>3801</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\nwk\nwk_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>131</YPos2><SelStart2>6522</SelStart2><SelEnd2>6522</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_nwk.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>752</YPos2><SelStart2>29434</SelStart2><SelEnd2>29434</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHL_ZC_DEBUG\Obj\aps_commands.o</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>795</SelStart2><SelEnd2>795</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_cc25xx.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>42</YPos2><SelStart2>3540</SelStart2><SelEnd2>3540</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ZBOSS_v1.0_src\include\zb_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>264</YPos2><SelStart2>7889</SelStart2><SelEnd2>7889</SelEnd2></Tab><ActiveTab>15</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01F343A8><key>iaridepm.enu1</key></Toolbar-01F343A8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>443</Bottom><Right>366</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>146413</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>269400</sizeVertCX><sizeVertCY>648688</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>291545</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>291545</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
