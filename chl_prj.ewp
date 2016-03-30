@@ -2061,7 +2061,8 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>ZB_PLATFORM_8051_SIM</state>
+          <state>xZB_PLATFORM_8051_SIM</state>
+          <state>ZB_SI44XX</state>
           <state>xZB_CC25XX</state>
           <state>ZB_IAR</state>
           <state>ZB_SECURITY</state>
