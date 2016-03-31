@@ -478,6 +478,27 @@
   </group>
   <group>
     <name>mac</name>
+    <group>
+      <name>si44xx</name>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\radio.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\radio_comm.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\radio_hal.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\radio_mcu.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\si4463.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\si44xx\si4463_spi.c</name>
+      </file>
+    </group>
     <file>
       <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\mac.c</name>
     </file>

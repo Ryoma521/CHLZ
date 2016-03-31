@@ -6,6 +6,8 @@ D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\include
 -I
 D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\osif\include
 -I
+D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\mac\si44xx
+-I
 D:\Program Files\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -I
 D:\Program Files\IAR Systems\Embedded Workbench 7.0\arm\inc
@@ -15,6 +17,8 @@ D:\Program Files\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\include
 -I
 D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\osif\include
+-I
+D:\ZZZ\GitHub\ZBOSS\ZBOSS_v1.0_src\mac\si44xx
 -I
 D:\Program Files\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -DxZB_PLATFORM_8051_SIM=1
@@ -216,7 +220,7 @@ D:\Program Files\IAR Systems\Embedded Workbench 7.0\arm\CMSIS\Include
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
 -D__DATE__="Mar 31 2016"
--D__TIME__="15:14:08"
+-D__TIME__="15:48:39"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
