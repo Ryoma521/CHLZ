@@ -240,7 +240,7 @@ void zb_mac_main_loop()
   if (ZB_GET_TRANS_INT())
   {
     TRACE_MSG(TRACE_COMMON2, "Interrupt occured, processing...", (FMT__0 ));
-    ZB_CHECK_INT_STATUS();
+    ZB_CHECK_INT_STATUS(); //Ryoma, Clear int flag;
   }
 
 #ifdef ZB_CC25XX

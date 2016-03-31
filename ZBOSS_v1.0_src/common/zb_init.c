@@ -87,7 +87,7 @@ void zb_init() ZB_CALLBACK
   ZB_MEMSET(&g_zb, 0, sizeof(zb_globals_t));
   ZB_MEMSET((void*)&g_izb, 0, sizeof(zb_intr_globals_t));
   /* some init of 8051 HW moved to zb_low_level_init() */
-  ZB_START_DEVICE();
+  ZB_START_DEVICE(); //Ryoma
 #ifdef ZB_INIT_HAS_ARGS
   TRACE_INIT(trace_comment);
 
@@ -111,7 +111,7 @@ void zb_init() ZB_CALLBACK
 #ifdef ZB_TRANSPORT_LINUX_SPIDEV
   zb_mac_transport_init();
 #else
-  zb_mac_transport_init(rx_pipe, tx_pipe);
+  zb_mac_transport_init(rx_pipe, tx_pipe); //Ryoma
 #endif
 #elif defined ZB_NS_BUILD
   zb_mac_transport_init();

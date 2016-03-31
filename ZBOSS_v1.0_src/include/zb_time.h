@@ -198,7 +198,7 @@ zb_timer_t;
 
 #ifdef ZB_8051_TIMER
 /* 8051, timer interrupts */
-#include "zb_8051_time.h"
+//#include "zb_8051_time.h" //Ryoma
 #endif
 
 /*! @} */

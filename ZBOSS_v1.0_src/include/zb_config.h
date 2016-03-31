@@ -224,7 +224,7 @@ Some additional run-time checks.
 /**
 If defined, platform is some 8051 clone
 */
-#define ZB8051
+//#define ZB8051  //Ryoma
 #endif
 
 /**
@@ -261,7 +261,7 @@ If defined, platform is some 8051 clone
 /**
    If defined (for UZ2400), data transport is SPI
  */
-#define ZB_TRANSPORT_8051_DATA_SPI
+//#define ZB_TRANSPORT_8051_DATA_SPI //Ryoma
 #define ZB_UZ2400
 #endif
 
@@ -645,7 +645,7 @@ If defined, platform is some 8051 clone
 
 #ifndef ZB_NS_BUILD
 
-#if defined ZB_UZ2410 || defined ZB_CC25XX
+#if defined ZB_UZ2410 || defined ZB_CC25XX || defined ZB_SI44XX
 #define ZB_USE_RX_QUEUE
 /*this is currently unused and broken feature, we need to dump saver registers from queue, when entering */
 /* traffic dump function */

@@ -63,7 +63,7 @@ PURPOSE: Main header for OS and platform depenednt stuff
 #elif defined ZB8051 || defined ZB_UZ2410 || defined ZB_CC25XX
 #include "zb_osif_8051.h"
 #else
-#error Port me!
+//#error Port me!  //Ryoma
 #endif
 
 #if !defined KEIL

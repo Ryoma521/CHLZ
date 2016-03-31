@@ -94,8 +94,8 @@ void zb_sched_loop_iteration() ZB_SDCC_REENTRANT/* ZB_KEIL_REENTRANT */
     did_something = 0;
 
     /* checking interrupt and processing all mac related routines */
-    CHECK_INT_N_TIMER(); 
-    zb_mac_main_loop();
+    CHECK_INT_N_TIMER(); //Ryoma, what meaning?
+    zb_mac_main_loop(); //Ryoma, Check tx int flag?
 
     /* First execute regular (immediate) callbacks */
     {
@@ -115,11 +115,11 @@ void zb_sched_loop_iteration() ZB_SDCC_REENTRANT/* ZB_KEIL_REENTRANT */
                     ));
 
 #ifndef SDCC
-        (*ent->func)(ent->param);
+        (*ent->func)(ent->param); //Ryoma, it is interesting.
 #else
         /* SDCC wants reentrant functions when called via pointer here, but not
          * need it when called using third function! */
-        sdcc_callf(ent->func, ent->param);
+        sdcc_callf(ent->func, ent->param); //Ryoma, reentrant!
 #endif
         ZB_RING_BUFFER_FLUSH_GET(&ZG->sched.cb_q);
       }
@@ -161,13 +161,13 @@ void zb_sched_loop_iteration() ZB_SDCC_REENTRANT/* ZB_KEIL_REENTRANT */
     if (ZG->sched.tm_queue)
     {
       ZB_TIMER_START(ZB_TIME_SUBTRACT(ZB_LIST_GET_HEAD(ZG->sched.tm_queue, next)->run_time,
-                                      t));
+                                      t)); //Ryoma
     }
     else
     {
       /* 11/21/11 CR:1855: Have no sync timer now, so can rename to
          'zb_timer_stop' */
-      zb_timer_stop_async();
+      zb_timer_stop_async(); //Ryoma
     }
   }
   while (did_something);

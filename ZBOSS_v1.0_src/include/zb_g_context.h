@@ -49,7 +49,7 @@ PURPOSE: Global context definition
 #ifndef ZB_G_CONTEXT_H
 #define ZB_G_CONTEXT_H 1
 
-#include "zb_osif.h"
+#include "zb_osif.h" 
 
 /*! \cond internals_doc */
 /*! \addtogroup ZB_BASE */
@@ -79,6 +79,16 @@ typedef struct zb_globals_s zb_globals_t;
 #endif
 
 struct zb_intr_globals_s;
+
+/*Ryoma*/
+#define ZB_VOLATILE volatile
+#define ZB_SDCC_REENTRANT
+#define ZB_SDCC_BANKED
+#define ZB_SDCC_XDATA
+#define ZB_CALLBACK
+#define ZB_KEIL_REENTRANT
+/*Ryoma*/
+
 typedef ZB_VOLATILE struct zb_intr_globals_s zb_intr_globals_t;
 
 #ifndef ZB_SNIFFER

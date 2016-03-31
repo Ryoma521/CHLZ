@@ -53,9 +53,9 @@ PURPOSE: Globals for 8051 transport (MAC, trace and dump)
 /*! \addtogroup ZB_MAC */
 /*! @{ */
 
-#include "zb_8051_serial.h"
+//#include "zb_8051_serial.h" //Ryoma
 #ifndef ZB_SNIFFER
-#include "zb_8051_spi.h"
+//#include "zb_8051_spi.h" //Ryoma
 #endif
 
 typedef struct zb_io_ctx_s

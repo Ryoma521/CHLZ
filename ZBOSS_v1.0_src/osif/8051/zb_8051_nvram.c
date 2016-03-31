@@ -58,12 +58,6 @@ PURPOSE: NVRAM functions for c8051f12x
 
 #include "zb_bank_common.h"
 
-void zb_flash_init()
-{
-  /* for deubg purpose only 
-  RSTSRC = 0x02;
-  */
-}
 /* Erasing nvram 
 Step 1. Disable interrupts.
 Step 2. If erasing a page in Bank 1, Bank 2, or Bank 3, set the COBANK bits (PSBANK.5-4) for 
