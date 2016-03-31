@@ -521,6 +521,9 @@
       <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\zb_ns3.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\zb_si44xx.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\ZBOSS_v1.0_src\mac\zb_uz2400.c</name>
     </file>
     <file>

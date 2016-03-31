@@ -645,7 +645,7 @@ If defined, platform is some 8051 clone
 
 #ifndef ZB_NS_BUILD
 
-#if defined ZB_UZ2410 || defined ZB_CC25XX
+#if defined ZB_UZ2410 || defined ZB_CC25XX || defined ZB_SI44XX
 #define ZB_USE_RX_QUEUE
 /*this is currently unused and broken feature, we need to dump saver registers from queue, when entering */
 /* traffic dump function */

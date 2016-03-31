@@ -162,6 +162,7 @@ void zb_mac_short_read_reg(zb_uint8_t short_addr) ZB_SDCC_REENTRANT
 
 void zb_transceiver_update_long_mac()
 {
+  /*This is related with cc25xx phy
   EXT_ADDR0 = ZB_PIB_EXTENDED_ADDRESS()[0];
   EXT_ADDR1 = ZB_PIB_EXTENDED_ADDRESS()[1];
   EXT_ADDR2 = ZB_PIB_EXTENDED_ADDRESS()[2];
@@ -170,48 +171,20 @@ void zb_transceiver_update_long_mac()
   EXT_ADDR5 = ZB_PIB_EXTENDED_ADDRESS()[5];
   EXT_ADDR6 = ZB_PIB_EXTENDED_ADDRESS()[6];
   EXT_ADDR7 = ZB_PIB_EXTENDED_ADDRESS()[7];
+  */ //Ryoma
 }
 
 void zb_set_pan_id(zb_uint16_t pan_id)
 {
+  /*This is related with cc25xx phy
    PAN_ID0 = (pan_id &0xFF);
    PAN_ID1 = ((pan_id>>8)&0xFF);
+  */ //Ryoma
 }
 
 void zb_transceiver_get_rssi(zb_uint8_t *rssi_value)
 {
-   zb_uint16_t tmp = 1000; /* not sure how long should we wait here */
-   FRMCTRL0 =  0x0C;
-   ISFLUSHRX(); /* flush rx fifo */
-   RFST = 0xE3; /* ISRXON */\
-   while (!RSSISTAT);
-   FRMCTRL0 |= 0x10; /* energy scan enabled */
-   while(tmp--)
-    {
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-        asm("NOP");
-    }
-   *rssi_value = RSSI;
-   /* restore */
-   RFST = 0xEF;
-   ISFLUSHRX();
-
-   FRMCTRL0 =  (0x20 | 0x40);
+   /*We should have this func in the SI44XX driver*/ //Ryoma
 }
 
 zb_ret_t zb_transceiver_send_fifo_packet(zb_uint8_t header_length, zb_uint16_t fifo_addr,
@@ -241,7 +214,7 @@ zb_ret_t zb_transceiver_send_fifo_packet(zb_uint8_t header_length, zb_uint16_t f
   ZB_UBEC_CLEAR_NORMAL_FIFO_TX_STATUS();
   ZB_CLEAR_TX_STATUS();
 
-  zb_uz2400_fifo_write(fifo_addr, buf);
+  //zb_uz2400_fifo_write(fifo_addr, buf); // Ryoma
 
   /* TODO: if acknowledgement is required for normal fifo, set ackreq
    * bit (SREG0x1B[2]) */
@@ -284,27 +257,28 @@ void zb_uz2400_fifo_write(zb_uint16_t long_addr, zb_buf_t *buf) ZB_SDCC_REENTRAN
   ZB_MAC_START_IO();
 
 
-  /* prepare transceiver */
-  /* disable rx interrupt */
-  RFIRQM0 &= ~(1<<6);
-  /* disable general RF interrupts */
-  IEN2 &= ~(0x01);
-  ISFLUSHTX();
-  ISTXON();
-  RFIRQF1 = ~0x02; /* tx done interrupt cleared */
-  {
-    zb_uint8_t i;
-    for (i = 0;i<ZB_BUF_LEN(buf);i++)
-    {
-      RFD = *(zb_uint8_t *)(ZB_BUF_BEGIN(buf)+i);
-    }
-  }
-  IEN2 |= 0x01; /* enable rf general interrupt back */
-  RFIRQM1 |= 0x03;
-  RFIRQM0 |= (1<<6);
-  ISFLUSHRX(); /* flush rx */
-  RFST = 0xE3; /* rx on    */
 
+//  /* prepare transceiver */
+//  /* disable rx interrupt */
+//  RFIRQM0 &= ~(1<<6);
+//  /* disable general RF interrupts */
+//  IEN2 &= ~(0x01);
+//  ISFLUSHTX();
+//  ISTXON();
+//  RFIRQF1 = ~0x02; /* tx done interrupt cleared */
+//  {
+//    zb_uint8_t i;
+//    for (i = 0;i<ZB_BUF_LEN(buf);i++)
+//    {
+//      RFD = *(zb_uint8_t *)(ZB_BUF_BEGIN(buf)+i);
+//    }
+//  }
+//  IEN2 |= 0x01; /* enable rf general interrupt back */
+//  RFIRQM1 |= 0x03;
+//  RFIRQM0 |= (1<<6);
+//  ISFLUSHRX(); /* flush rx */
+//  RFST = 0xE3; /* rx on    */
+  //Ryoma
 
 
 #ifdef ZB_TRAFFIC_DUMP_ON

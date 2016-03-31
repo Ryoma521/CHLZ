@@ -49,23 +49,23 @@ PURPOSE: Common include file for ZigBee
 #include "zb_config.h"
 
 #ifdef ZB_SI44XX
-#ifndef TI_SPECIFIC_INCLUDED
-#define TI_SPECIFIC_INCLUDED
+#ifndef SI_SPECIFIC_INCLUDED //Ryoma
+#define SI_SPECIFIC_INCLUDED //Ryoma
 
-#define CLOCK_XTAL   0  
-#define CLOCK_RC     1
-#define CLOCK_SOURCE CLOCK_XTAL
+//#define CLOCK_XTAL   0  
+//#define CLOCK_RC     1
+//#define CLOCK_SOURCE CLOCK_XTAL
+//
+//#define CLOCK_XTAL_SRC   0x00  /* XTAL oscillator */
+//#define CLOCK_RC_SRC   0x01  /* RC oscillator */
+//#define CLOCK_SRC CLOCK_XTAL_SRC
 
-#define CLOCK_XTAL_SRC   0x00  /* XTAL oscillator */
-#define CLOCK_RC_SRC   0x01  /* RC oscillator */
-#define CLOCK_SRC CLOCK_XTAL_SRC
+//#define ZB_RX_FIFO 0x6000
+//#define ZB_NORMAL_TX_FIFO 0x6080
+//#define ZB_NORMAL_FIFO_ADDR 0x6080
+//#define ZB_NORMAL_RXFIFO_ADDR 0x6000
 
-#define ZB_RX_FIFO 0x6000
-#define ZB_NORMAL_TX_FIFO 0x6080
-#define ZB_NORMAL_FIFO_ADDR 0x6080
-#define ZB_NORMAL_RXFIFO_ADDR 0x6000
-
-#define ZB_CC2530_RF_INTERRUPT 0x83
+//#define ZB_CC2530_RF_INTERRUPT 0x83
 
 #define ZB_TRANSCEIVER_START_CHANNEL_NUMBER 11
 #define ZB_TRANSCEIVER_MAX_CHANNEL_NUMBER   26
@@ -75,9 +75,9 @@ PURPOSE: Common include file for ZigBee
 #define ZB_CLEAR_TRANS_INT() (TRANS_CTX().interrupt_flag = 0)
 #define ZB_GET_TRANS_INT() (TRANS_CTX().interrupt_flag)
 
-#define ZB_CC2530_FIFO_TAIL 2 /* crc, rssi */
+#define ZB_CC2530_FIFO_TAIL 2 /* crc, rssi */ //We should verify at SI44XX slolution
 
-#define ZB_CHECK_INT_STATUS() zb_ubec_check_int_status()
+#define ZB_CHECK_INT_STATUS() zb_ubec_check_int_status() //Clear transceiver ctx interrupt flag. Ryoma
 
 #define ZB_UBEC_CLEAR_RX_DATA_STATUS() (TRANS_CTX().int_status_0 &= (~0x40)) 
 
@@ -99,16 +99,16 @@ void zb_uz_short_reg_write_2b(zb_uint8_t reg, zb_uint16_t v);
 #define ZB_TRANSCEIVER_SET_COORD_SHORT_ADDR(addr) ZVUNUSED(0)
 #define ZB_TRANSCEIVER_SET_COORD_EXT_ADDR(addr) ZVUNUSED(0)
 
-#define ISFLUSHRX()             RFST = 0xEC
-#define SFLUSHRX()              RFST = 0xDD
-#define ISFLUSHTX()             RFST = 0xEE
-#define ISRXON()                RFST = 0xE3
-#define ISTXON()                RFST = 0xE9
-#define ISTXONCCA()             RFST = 0xEA
-#define ISRFOFF()               RFST = 0xEF
+//#define ISFLUSHRX()             RFST = 0xEC
+//#define SFLUSHRX()              RFST = 0xDD
+//#define ISFLUSHTX()             RFST = 0xEE
+//#define ISRXON()                RFST = 0xE3
+//#define ISTXON()                RFST = 0xE9
+//#define ISTXONCCA()             RFST = 0xEA
+//#define ISRFOFF()               RFST = 0xEF
 
-#define ZB_CLEAR_PENDING_BIT() SRCMATCH &=(~0x06)
-#define ZB_SET_PENDING_BIT() SRCMATCH |=0x06
+//#define ZB_CLEAR_PENDING_BIT() SRCMATCH &=(~0x06) //Source Address Matching. Ryoma
+//#define ZB_SET_PENDING_BIT() SRCMATCH |=0x06 //Source Address Matching. Ryoma
 
 
 
@@ -156,8 +156,8 @@ zb_ret_t zb_transceiver_send_fifo_packet(zb_uint8_t header_length, zb_uint16_t f
 #define ZB_CHECK_BEACON_MODE_ON() ZB_TRUE
 
 
-#pragma vector=ZB_CC2530_RF_INTERRUPT
-ZB_INTERRUPT zb_cc25xx_handler(void);
+//#pragma vector=ZB_CC2530_RF_INTERRUPT //Ryoma
+//ZB_INTERRUPT zb_cc25xx_handler(void); //Ryoma
 
 
 
@@ -258,6 +258,8 @@ ZB_RING_BUFFER_DECLARE(zb_regs_queue, zb_reserved_regs_t *, ZB_RX_QUEUE_CAP+1);
 #define ZB_GET_ISRSTS() \
 TRANS_CTX().int_status_0 = RFIRQF0;\
 TRANS_CTX().int_status_1 = RFIRQF1
+//RF Interrupt Flags LSB; Ryoma
+//RF Interrupt Flags MSB; Ryoma
 
 /* TODO: should be modified for TI */
 #define ZB_GET_TXSR() \
@@ -280,14 +282,14 @@ TRANS_CTX().tx_status = 0
   } else                        \
   {    							\
     zb_uint8_t i, len;\
-    len = RFD;\
+    //len = RFD;\ //Ryoma
     MAC_CTX().mac_rx_queue.ring_buf[MAC_CTX().mac_rx_queue.write_i]->u.hdr.len = len;\
     *(zb_uint8_t *)(ZB_BUF_BEGIN(MAC_CTX().mac_rx_queue.ring_buf[MAC_CTX().mac_rx_queue.write_i])) = len;\
     for (i = 1; i<len;i++)\
     {\
-     *(zb_uint8_t *)(ZB_BUF_BEGIN(MAC_CTX().mac_rx_queue.ring_buf[MAC_CTX().mac_rx_queue.write_i])+i) = RFD;\
+     //*(zb_uint8_t *)(ZB_BUF_BEGIN(MAC_CTX().mac_rx_queue.ring_buf[MAC_CTX().mac_rx_queue.write_i])+i) = RFD;\ //Ryoma
     }\
-    len = RFD;len=RFD;/* skip CRC */\
+    //len = RFD;len=RFD;/* skip CRC */\ //Ryoma
     MAC_CTX().mac_rx_queue.written++;                                                     \
     MAC_CTX().mac_rx_queue.write_i = (MAC_CTX().mac_rx_queue.write_i + 1) % ZB_RX_QUEUE_CAP;           \
   }
