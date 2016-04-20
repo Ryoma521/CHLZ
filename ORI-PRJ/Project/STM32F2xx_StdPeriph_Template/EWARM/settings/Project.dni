@@ -1,0 +1,129 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[DebugChecksum]
+Checksum=975133005
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=FrameInfo-CheckByte	4	0
+Fmt1=FrameInfo-DestNwkAddr	4	0
+Fmt2=FrameInfo-FrameCtrlWord	4	0
+Fmt3=FrameInfo-FrameID	4	0
+Fmt4=FrameInfo-FrameLen	4	0
+Fmt5=FrameInfo-GroupAddr	4	0
+Fmt6=FrameInfo-NwkID	4	0
+Fmt7=FrameInfo-SourceNwkAddr	4	0
+Fmt8=struct si446x_reply_FIFO_INFO_map-RX_FIFO_COUNT	3	0
+Fmt9=struct si446x_reply_FIFO_INFO_map-TX_FIFO_SPACE	3	0
+[array_types]
+Fmt0=U8[64]	4	0
+[watch_formats]
+Fmt0={W}0:*(PK_BUFFER+10)	3	0
+Fmt1={W}0:*(PK_BUFFER+11)	3	0
+Fmt2={W}0:*(PkBuffer)	3	0
+Fmt3={W}0:*(PkBuffer+20)	3	0
+Fmt4={W}0:*(PkBuffer+PkLenth)	3	0
+Fmt5={W}0:*(PkBuffer+PkLenth+1)	3	0
+Fmt6={W}0:*(PkBuffer+PkLenth-1)	3	0
+Fmt7={W}0:*(PkBuffer+PkLenth-2)	3	0
+Fmt8={W}0:*(data_1st+5)	3	0
+Fmt9={W}0:*(data_1st+packet_length_1st)	3	0
+Fmt10={W}0:*PK_BUFFER	3	0
+Fmt11={W}0:*PkBuffer	3	0
+Fmt12={W}0:*buf	3	0
+Fmt13={W}0:*data_1st	3	0
+Fmt14={W}0:Buf[3]	3	0
+Fmt15={W}0:PK_BUFFER[11]	3	0
+Fmt16={W}0:PK_BUFFER[12]	3	0
+Fmt17={W}0:PayLoad[0]	4	0
+Fmt18={W}0:PkLenth	3	0
+Fmt19={W}0:RxBuffer[0]	4	0
+Fmt20={W}0:RxBuffer[10]	4	0
+Fmt21={W}0:RxBuffer[11]	4	0
+Fmt22={W}0:RxBuffer[1]	4	0
+Fmt23={W}0:RxBuffer[2]	4	0
+Fmt24={W}0:RxBuffer[8]	3	0
+Fmt25={W}0:UartBuffer[0]	4	0
+Fmt26={W}0:UartBuffer[1]	4	0
+Fmt27={W}0:fifo_cout	3	0
+Fmt28={W}0:fixRadioPacket[0]	3	0
+Fmt29={W}0:t2	3	0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\main.c}.235.9" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "D:\上海无线通信研究中心原型开发部\TDMA MAC协议栈-低功耗长距离\4463\SI4463工程存档\STM32F2xx_StdPeriph_Lib-测试\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A1=_ "D:\上海无线通信研究中心原型开发部\TDMA MAC协议栈-低功耗长距离\4463\SI4463工程存档\STM32F2xx_StdPeriph_Lib_V1.0.0_V1.3\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_mcu.c" ""
+A2=_ "D:\上海无线通信研究中心原型开发部\TDMA MAC协议栈-低功耗长距离\4463\SI4463工程存档\STM32F2xx_StdPeriph_Lib_V1.0.0_V1.3\Project\STM32F2xx_StdPeriph_Template\stm32f2xx_it.c" ""
+A3=_ "D:\上海无线通信研究中心原型开发部\TDMA MAC协议栈-低功耗长距离\4463\STM32F2xx_StdPeriph_Lib_V1.0.0_V1.3\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F2xx\startup\iar\startup_stm32f2xx.s" ""
+A4=_ "E:\Work\WorkSpace\STM32\STM32F2XX\对比测试用软件\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_hal.c" ""
+A5=_ "E:\Work\WorkSpace\STM32\STM32F2XX\对比测试用软件\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_mcu.c" ""
+A6=_ "E:\Work\WorkSpace\STM32\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\STM32F2xx_StdPeriph_Lib-测试单速率_v2.1-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_hal.c" ""
+A7=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V0.3\Utilities\STM32_EVAL\stm322xg_eval\stm322xg_eval.c" ""
+A8=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V0.4\Utilities\STM32_EVAL\stm322xg_eval\stm322xg_eval.c" ""
+A9=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V0.5\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A10=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V0.8\Project\STM32F2xx_StdPeriph_Template\stm32f2xx_it.c" ""
+A11=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V1.0\Project\STM32F2xx_StdPeriph_Template\stm32f2xx_it.c" ""
+A12=_ "E:\低功耗长距离\STM32F2xx_StdPeriph_Lib_V1.0.0_V1.1\Project\STM32F2xx_StdPeriph_Template\stm32f2xx_it.c" ""
+A13=_ "E:\低功耗长距离\stm32f2xx_stdperiph_lib_v0.1\stm32f2xx_stdperiph_lib\STM32F2xx_StdPeriph_Lib_V1.0.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h" ""
+A14=_ "E:\低功耗长距离\stm32f2xx_stdperiph_lib_v0.1\stm32f2xx_stdperiph_lib\STM32F2xx_StdPeriph_Lib_V1.0.0\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A15=_ "E:\低功耗长距离\stm32f2xx_stdperiph_lib_v0.1\stm32f2xx_stdperiph_lib\STM32F2xx_StdPeriph_Lib_V1.0.0\Project\STM32F2xx_StdPeriph_Template\system_stm32f2xx.c" ""
+A16=_ "E:\低功耗长距离\stm32f2xx_stdperiph_lib_v0.1\stm32f2xx_stdperiph_lib\STM32F2xx_StdPeriph_Lib_V1.0.0\Project\STM32F2xx_StdPeriph_Template\uart.c" ""
+A17=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-_v0.6-dual rate\Project\STM32F2xx_StdPeriph_Template\Kernel\Kernel.c" ""
+A18=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-_v0.6-dual rate\Project\STM32F2xx_StdPeriph_Template\stm32f2xx_it.c" ""
+A19=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-_v0.9-dual rate\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A20=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-_v1.3-dual rate\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A21=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v1.6-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_hal.c" ""
+A22=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v1.7-dual rate\Project\STM32F2xx_StdPeriph_Template\Kernel\Kernel.c" ""
+A23=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v1.7-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_mcu.c" ""
+A24=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v1.7-dual rate\Project\STM32F2xx_StdPeriph_Template\main.c" ""
+A25=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v2.0-dual rate\Project\STM32F2xx_StdPeriph_Template\Kernel\Kernel.c" ""
+A26=_ "E:\低功耗长距离阶段2\STM32F2xx_StdPeriph_Lib-测试单速率_v2.0-dual rate\Project\STM32F2xx_StdPeriph_Template\SI4463\radio_mcu.c" ""
+Count=27
+SuppressDialog=1

@@ -1,0 +1,1322 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 19/Apr/2016  16:25:12
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Exe\Project.out
+#    Map file     =  
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\List\Project.map
+#    Command line =  
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\af_descriptor.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\af_rx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_bind.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_commands.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_dups.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_main.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_nwk_confirm.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\aps_secur.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\apsme_secur.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\core_cm3.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Debug.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Hal_drivers.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Hal_timer.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Kernel.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Kernel_Memory.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\Kernel_Timers.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_associate.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_cr_associate.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_cr_coordinator.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_cr_data.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_data.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_disturber.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_fcs.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_routines.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_scan.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\mac_secur.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\main.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\misc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\node.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_address_assign.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_formation.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_join.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_mesh_routing.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_permit_join.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_route_discovery.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_cr_tree_routing.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_discovery.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_formation.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_join.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_main.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_neighbor.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_nlme.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_panid_conflict.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\nwk_secur.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\radio.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\radio_comm.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\radio_hal.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\radio_mcu.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\secur_ccm.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\si4463.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\si4463_spi.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\startup_stm32f2xx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm322xg_eval_fsmc_sram.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm322xg_eval_ioe.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm322xg_eval_lcd.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32_eval.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_adc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_can.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_crc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_cryp.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_cryp_aes.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_cryp_des.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_cryp_tdes.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_dac.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_dbgmcu.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_dcmi.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_dma.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_exti.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_flash.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_fsmc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_gpio.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_hash.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_hash_md5.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_hash_sha1.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_i2c.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_it.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_iwdg.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_pwr.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_rcc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_rng.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_rtc.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_sdio.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_spi.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_syscfg.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_tim.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_usart.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\stm32f2xx_wwdg.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\SWITCH.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\system_stm32f2xx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\test_profile.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\uart.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_dummy.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_nvram.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_serial.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_serial_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_spi.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_spi_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_8051_xram.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_address.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_bufpool.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_bufpool_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_cc25xx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_cc25xx_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_debug.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_ib.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_mac_transport_8051_direct.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_mac_transport_8051_ser.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_mac_transport_8051_spi.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_ns3.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_random.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_scheduler.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_scheduler_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_si44xx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_si44xx_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_sysinit.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_TI_cc25xx_secur_ccm.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_time.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_time_8051.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_time_8051_init.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_trace.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_trace_8051.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_uz2400.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_uz2400_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_uz2410.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zb_uz2x_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_app.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_bind_manage.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_channel_manager.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_common.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_disc_cli.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_disc_srv.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_nwk_manage_cli.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_nwk_manage_srv.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_rx.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_secur.o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj\zdo_start_zc.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Exe\Project.out
+#        --strip --map
+#        D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\List\Project.map
+#        --config "D:\Program Files\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\ST\stm32f205xG.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x184
+  .intvec             ro code  0x08000000    0x184  startup_stm32f2xx.o [1]
+                             - 0x08000184    0x184
+
+"P1":                                      0x1155c
+  .text               ro code  0x08000184   0x1c86  nwk_main.o [1]
+  .text               ro code  0x08001e0a     0x2e  copy_init3.o [5]
+  .text               ro code  0x08001e38    0x9ac  nwk_neighbor.o [1]
+  .text               ro code  0x080027e4    0x160  nwk_cr_tree_routing.o [1]
+  .text               ro code  0x08002944    0xa9c  nwk_cr_mesh_routing.o [1]
+  .text               ro code  0x080033e0    0x36c  zb_bufpool.o [1]
+  .text               ro code  0x0800374c     0x5a  zb_random.o [1]
+  .text               ro code  0x080037a6     0x22  zero_init3.o [5]
+  .text               ro code  0x080037c8     0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x0800383e      0xa  xsprout.o [3]
+  .text               ro code  0x08003848    0x4f0  zb_scheduler.o [1]
+  .text               ro code  0x08003d38    0xd80  zb_address.o [1]
+  .text               ro code  0x08004ab8    0x52c  nwk_cr_join.o [1]
+  .text               ro code  0x08004fe4    0x128  mac_common.o [1]
+  .text               ro code  0x0800510c     0x66  ABImemset.o [5]
+  .rodata             const    0x08005172      0x2  stm32_eval.o [1]
+  .text               ro code  0x08005174    0xb94  mac.o [1]
+  .text               ro code  0x08005d08     0x62  memcmp_unaligned.o [5]
+  .rodata             const    0x08005d6a      0x2  stm32_eval.o [1]
+  .text               ro code  0x08005d6c    0x4fc  nwk_panid_conflict.o [1]
+  .text               ro code  0x08006268    0xe8c  nwk_join.o [1]
+  .text               ro code  0x080070f4     0x88  nwk_address_assign.o [1]
+  .text               ro code  0x0800717c     0x78  ABImemmove_unaligned.o [5]
+  .text               ro code  0x080071f4     0x3c  zb_time.o [1]
+  .text               ro code  0x08007230    0x72c  nwk_cr_formation.o [1]
+  .text               ro code  0x0800795c    0x13e  zb_si44xx.o [1]
+  .rodata             const    0x08007a9a      0x1  stm32_eval.o [1]
+  .rodata             const    0x08007a9b      0x1  stm32_eval.o [1]
+  .text               ro code  0x08007a9c    0x5e4  mac_data.o [1]
+  .text               ro code  0x08008080    0x230  mac_associate.o [1]
+  .text               ro code  0x080082b0    0x204  si4463.o [1]
+  .text               ro code  0x080084b4    0x380  mac_routines.o [1]
+  .text               ro code  0x08008834    0x10c  radio_comm.o [1]
+  .text               ro code  0x08008940     0x5c  radio_hal.o [1]
+  .text               ro code  0x0800899c     0x36  Debug.o [1]
+  .rodata             const    0x080089d2      0x1  stm32_eval.o [1]
+  .rodata             const    0x080089d3      0x1  stm32_eval.o [1]
+  .text               ro code  0x080089d4    0x5e8  mac_cr_coordinator.o [1]
+  .text               ro code  0x08008fbc    0x598  mac_cr_data.o [1]
+  .text               ro code  0x08009554    0x260  radio_mcu.o [1]
+  .text               ro code  0x080097b4     0x7a  si4463_spi.o [1]
+  .text               ro code  0x08009830     0x88  misc.o [1]
+  .text               ro code  0x080098b8    0x126  stm32f2xx_gpio.o [1]
+  .text               ro code  0x080099e0    0x154  stm32f2xx_rcc.o [1]
+  .text               ro code  0x08009b34     0x54  stm32f2xx_syscfg.o [1]
+  .text               ro code  0x08009b88     0xd0  stm32f2xx_exti.o [1]
+  .text               ro code  0x08009c58   0x1064  aps_main.o [1]
+  .text               ro code  0x0800acbc     0x6c  aps_bind.o [1]
+  .text               ro code  0x0800ad28    0x768  zdo_bind_manage.o [1]
+  .text               ro code  0x0800b490    0x96c  zdo_app.o [1]
+  .text               ro code  0x0800bdfc    0x100  aps_dups.o [1]
+  .text               ro code  0x0800befc     0x1c  aps_commands.o [1]
+  .text               ro code  0x0800bf18    0x2c4  zdo_common.o [1]
+  .text               ro code  0x0800c1dc     0x64  zdo_disc_cli.o [1]
+  .text               ro code  0x0800c240    0x24c  af_descriptor.o [1]
+  .text               ro code  0x0800c48c     0x90  zb_init.o [1]
+  .text               ro code  0x0800c51c    0x930  zdo_nwk_manage_srv.o [1]
+  .text               ro code  0x0800ce4c     0x66  zb_ib.o [1]
+  .text               ro code  0x0800ceb4     0x68  zb_scheduler_init.o [1]
+  .text               ro code  0x0800cf1c     0x40  zb_bufpool_init.o [1]
+  .text               ro code  0x0800cf5c    0xd40  zdo_disc_srv.o [1]
+  .text               ro code  0x0800dc9c    0x834  nwk_discovery.o [1]
+  .text               ro code  0x0800e4d0    0x7a4  xprintfsmall.o [3]
+  .text               ro code  0x0800ec74     0x20  xmbtowc.o [3]
+  .text               ro code  0x0800ec94     0x16  strchr.o [5]
+  .text               ro code  0x0800ecac     0x36  strlen.o [5]
+  .text               ro code  0x0800ece4     0x58  memchr.o [5]
+  .text               ro code  0x0800ed3c      0xa  xmbcurmax.o [3]
+  .text               ro code  0x0800ed48     0xb0  xxmemxmalloc.o [3]
+  .text               ro code  0x0800edf8     0x1a  xwctomb.o [3]
+  .text               ro code  0x0800ee14     0x80  xxmemxfree.o [3]
+  .text               ro code  0x0800ee94     0x14  setlocale.o [3]
+  .text               ro code  0x0800eea8     0x60  xencoding_sb.o [3]
+  .text               ro code  0x0800ef08     0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x0800ef34      0x2  xtls.o [3]
+  .text               ro code  0x0800ef38    0x4fc  mac_scan.o [1]
+  .text               ro code  0x0800f434    0x49c  zdo_rx.o [1]
+  .text               ro code  0x0800f8d0    0x410  zdo_channel_manager.o [1]
+  .text               ro code  0x0800fce0     0xcc  zdo_nwk_manage_cli.o [1]
+  .text               ro code  0x0800fdac    0x34c  nwk_nlme.o [1]
+  .text               ro code  0x080100f8    0x2a8  mac_cr_associate.o [1]
+  .text               ro code  0x080103a0    0x226  stm32f2xx_usart.o [1]
+  .text               ro code  0x080105c8    0x1fc  zdo_start_zc.o [1]
+  .text               ro code  0x080107c4     0xb8  main.o [1]
+  .text               ro code  0x0801087c     0x90  uart.o [1]
+  .text               ro code  0x0801090c    0x1c0  stm32_eval.o [1]
+  .text               ro code  0x08010acc    0x108  radio.o [1]
+  .text               ro code  0x08010bd4     0xe4  af_rx.o [1]
+  .text               ro code  0x08010cb8     0x34  sprintf.o [3]
+  .text               ro code  0x08010cec     0x9c  common.o [1]
+  .text               ro code  0x08010d88    0x166  stm32f2xx_it.o [1]
+  .text               ro code  0x08010ef0    0x124  system_stm32f2xx.o [1]
+  .text               ro code  0x08011014    0x110  nwk_formation.o [1]
+  .text               ro code  0x08011124     0xe8  nwk_cr_permit_join.o [1]
+  .text               ro code  0x0801120c     0x28  data_init.o [5]
+  .iar.init_table     const    0x08011234     0x24  - Linker created -
+  .text               ro code  0x08011258     0x20  aps_nwk_confirm.o [1]
+  .text               ro code  0x08011278     0x1a  cmain.o [5]
+  .text               ro code  0x08011292      0x4  low_level_init.o [3]
+  .text               ro code  0x08011296      0x4  exit.o [3]
+  .text               ro code  0x0801129c      0xa  cexit.o [5]
+  .text               ro code  0x080112a8     0x14  exit.o [6]
+  .rodata             const    0x080112bc     0x10  main.o [1]
+  .rodata             const    0x080112cc     0x10  main.o [1]
+  .rodata             const    0x080112dc     0x10  stm32_eval.o [1]
+  .text               ro code  0x080112ec     0x10  startup_stm32f2xx.o [1]
+  .rodata             const    0x080112fc      0xc  main.o [1]
+  .text               ro code  0x08011308      0xc  cstartup_M.o [5]
+  .rodata             const    0x08011314      0x8  main.o [1]
+  .rodata             const    0x0801131c      0x8  main.o [1]
+  .rodata             const    0x08011324      0x8  stm32_eval.o [1]
+  .rodata             const    0x0801132c      0x4  stm32_eval.o [1]
+  .rodata             const    0x08011330      0x4  stm32_eval.o [1]
+  .rodata             const    0x08011334      0x4  stm32_eval.o [1]
+  .text               ro code  0x08011338      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801133c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011340      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011344      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011348      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801134c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011350      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011354      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011358      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801135c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011360      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011364      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011368      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801136c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011370      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011374      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011378      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801137c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011380      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011384      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011388      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801138c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011390      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011394      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011398      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801139c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113a0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113a4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113a8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113ac      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113b0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113b4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113b8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113bc      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113c0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113c4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113c8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113cc      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113d0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113d4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113d8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113dc      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113e0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113e4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113e8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113ec      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113f0      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113f4      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113f8      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x080113fc      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011400      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011404      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011408      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801140c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011410      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011414      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011418      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801141c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011420      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011424      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011428      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801142c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011430      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011434      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011438      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801143c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011440      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011444      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011448      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801144c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011450      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011454      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011458      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801145c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011460      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011464      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011468      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801146c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011470      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011474      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011478      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801147c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011480      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011484      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011488      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801148c      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011490      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011494      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x08011498      0x4  startup_stm32f2xx.o [1]
+  .text               ro code  0x0801149c      0x4  startup_stm32f2xx.o [1]
+  .rodata             const    0x080114a0      0x0  zero_init3.o [5]
+  .rodata             const    0x080114a0      0x0  copy_init3.o [5]
+  Initializer bytes   ro data  0x080114a0    0x240  <for P2 s0>
+                             - 0x080116e0  0x1155c
+
+"P2":                                       0x5e40
+  P2 s0                        0x20000000    0x240  <Init block>
+    .data             inited   0x20000000    0x16c  radio.o [1]
+    __DLIB_PERTHREAD  inited   0x2000016c     0x74  setlocale.o [3]
+    .data             inited   0x200001e0     0x10  af_descriptor.o [1]
+    .data             inited   0x200001f0     0x10  stm32_eval.o [1]
+    .data             inited   0x20000200     0x10  stm32f2xx_rcc.o [1]
+    .data             inited   0x20000210      0xc  radio.o [1]
+    .data             inited   0x2000021c      0x8  af_descriptor.o [1]
+    .data             inited   0x20000224      0x8  zdo_start_zc.o [1]
+    .data             inited   0x2000022c      0x4  radio.o [1]
+    .data             inited   0x20000230      0x4  stm32_eval.o [1]
+    .data             inited   0x20000234      0x4  stm32_eval.o [1]
+    .data             inited   0x20000238      0x4  stm32_eval.o [1]
+    .data             inited   0x2000023c      0x1  stm32f2xx_it.o [1]
+  .bss                zero     0x20000240   0x1ad0  zb_init.o [1]
+  .bss                zero     0x20001d10     0x40  stm32f2xx_it.o [1]
+  .bss                zero     0x20001d50     0x34  common.o [1]
+  .bss                zero     0x20001d84     0x24  main.o [1]
+  .bss                zero     0x20001da8     0x24  main.o [1]
+  .bss                zero     0x20001dcc     0x1c  zb_init.o [1]
+  .bss                zero     0x20001de8     0x14  si4463.o [1]
+  .bss                zero     0x20001dfc     0x10  si4463.o [1]
+  .bss                zero     0x20001e0c      0x8  main.o [1]
+  .bss                zero     0x20001e14      0x8  zb_init.o [1]
+  .bss                zero     0x20001e1c      0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x20001e24      0x4  main.o [1]
+  .bss                zero     0x20001e28      0x4  stm32f2xx_it.o [1]
+  .bss                zero     0x20001e2c      0x4  zb_random.o [1]
+  .bss                zero     0x20001e30      0x4  xgetmemchunk.o [3]
+  .bss                zero     0x20001e34      0x2  stm32f2xx_it.o [1]
+  .bss                zero     0x20001e36      0x1  common.o [1]
+  .bss                zero     0x20001e37      0x1  radio.o [1]
+  .bss                zero     0x20001e38      0x1  radio_comm.o [1]
+  .bss                zero     0x20001e39      0x1  stm32f2xx_it.o [1]
+  .bss                zero     0x20001e3a      0x1  uart.o [1]
+  CSTACK                       0x20001e40   0x2000  <Block>
+    CSTACK            uninit   0x20001e40   0x2000  <Block tail>
+  HEAP                         0x20003e40   0x2000  <Block>
+    HEAP              uninit   0x20003e40   0x2000  <Block tail>
+                             - 0x20005e40   0x5e40
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1bfb:
+          0x20000240  0x1bfb
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x240 (100% of destination):
+          0x080114a0   0x240
+    1 destination range, total size 0x23d:
+          0x20000000   0x23d
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj: [1]
+    Debug.o                      54
+    af_descriptor.o             588       24       24
+    af_rx.o                     228
+    aps_bind.o                  108
+    aps_commands.o               28
+    aps_dups.o                  256
+    aps_main.o                4 196
+    aps_nwk_confirm.o            32
+    common.o                    156                53
+    mac.o                     2 964
+    mac_associate.o             560
+    mac_common.o                296
+    mac_cr_associate.o          680
+    mac_cr_coordinator.o      1 512
+    mac_cr_data.o             1 432
+    mac_data.o                1 508
+    mac_routines.o              896
+    mac_scan.o                1 276
+    main.o                      184       60       84
+    misc.o                      136
+    nwk_address_assign.o        136
+    nwk_cr_formation.o        1 836
+    nwk_cr_join.o             1 324
+    nwk_cr_mesh_routing.o     2 716
+    nwk_cr_permit_join.o        232
+    nwk_cr_tree_routing.o       352
+    nwk_discovery.o           2 100
+    nwk_formation.o             272
+    nwk_join.o                3 724
+    nwk_main.o                7 302
+    nwk_neighbor.o            2 476
+    nwk_nlme.o                  844
+    nwk_panid_conflict.o      1 276
+    radio.o                     264      380      381
+    radio_comm.o                268                 1
+    radio_hal.o                  92
+    radio_mcu.o                 608
+    si4463.o                    516                36
+    si4463_spi.o                122
+    startup_stm32f2xx.o         764
+    stm32_eval.o                448       72       28
+    stm32f2xx_exti.o            208
+    stm32f2xx_gpio.o            294
+    stm32f2xx_it.o              358        1       72
+    stm32f2xx_rcc.o             340       16       16
+    stm32f2xx_syscfg.o           84
+    stm32f2xx_usart.o           550
+    system_stm32f2xx.o          292
+    uart.o                      144                 1
+    zb_address.o              3 456
+    zb_bufpool.o                876
+    zb_bufpool_init.o            64
+    zb_ib.o                     102
+    zb_init.o                   144             6 900
+    zb_random.o                  90                 4
+    zb_scheduler.o            1 264
+    zb_scheduler_init.o         104
+    zb_si44xx.o                 318
+    zb_time.o                    60
+    zdo_app.o                 2 412
+    zdo_bind_manage.o         1 896
+    zdo_channel_manager.o     1 040
+    zdo_common.o                708
+    zdo_disc_cli.o              100
+    zdo_disc_srv.o            3 392
+    zdo_nwk_manage_cli.o        204
+    zdo_nwk_manage_srv.o      2 352
+    zdo_rx.o                  1 180
+    zdo_start_zc.o              508        8        8
+    -------------------------------------------------
+    Total:                   67 302      561    7 608
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    setlocale.o                  20      116      116
+    sprintf.o                    52
+    xencoding_sb.o               96
+    xgetmemchunk.o               44                 4
+    xmbcurmax.o                  10
+    xmbtowc.o                    32
+    xprintfsmall.o            1 956
+    xsprout.o                    10
+    xtls.o                        2
+    xwctomb.o                    26
+    xxmemxfree.o                128
+    xxmemxmalloc.o              176                 8
+    -------------------------------------------------
+    Total:                    2 560      116      128
+
+m7M_tl.a: [4]
+    -------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       118
+    ABImemmove_unaligned.o      120
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     88
+    memcmp_unaligned.o           98
+    strchr.o                     22
+    strlen.o                     54
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      770
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         24
+    Linker created                        39   16 384
+-----------------------------------------------------
+    Grand Total:             70 676      716   24 120
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x08011279          Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x20000200    0x10  Data  Lc  stm32f2xx_rcc.o [1]
+AckBuff                 0x20001e0c     0x8  Data  Gb  main.o [1]
+BusFault_Handler        0x08010d8f     0x2  Code  Gb  stm32f2xx_it.o [1]
+COM_RX_AF               0x080089d3     0x1  Data  Gb  stm32_eval.o [1]
+COM_RX_PIN              0x08005d6a     0x2  Data  Gb  stm32_eval.o [1]
+COM_RX_PIN_SOURCE       0x08007a9b     0x1  Data  Gb  stm32_eval.o [1]
+COM_RX_PORT             0x20000238     0x4  Data  Gb  stm32_eval.o [1]
+COM_RX_PORT_CLK         0x08011334     0x4  Data  Gb  stm32_eval.o [1]
+COM_TX_AF               0x080089d2     0x1  Data  Gb  stm32_eval.o [1]
+COM_TX_PIN              0x08005172     0x2  Data  Gb  stm32_eval.o [1]
+COM_TX_PIN_SOURCE       0x08007a9a     0x1  Data  Gb  stm32_eval.o [1]
+COM_TX_PORT             0x20000234     0x4  Data  Gb  stm32_eval.o [1]
+COM_TX_PORT_CLK         0x08011330     0x4  Data  Gb  stm32_eval.o [1]
+COM_USART               0x20000230     0x4  Data  Gb  stm32_eval.o [1]
+COM_USART_CLK           0x0801132c     0x4  Data  Gb  stm32_eval.o [1]
+CSTACK$$Base            0x20001e40           --   Gb  - Linker created -
+CSTACK$$Limit           0x20003e40           --   Gb  - Linker created -
+DataCheck               0x08010ced     0x6  Code  Gb  common.o [1]
+DebugMon_Handler        0x08010d95     0x2  Code  Gb  stm32f2xx_it.o [1]
+DelayMs                 0x080089b9    0x1a  Code  Gb  Debug.o [1]
+DelayUs                 0x0800899d    0x1c  Code  Gb  Debug.o [1]
+DemoApp_Pollhandler_RX  0x08010b23     0x8  Code  Gb  radio.o [1]
+EXTI15_10_IRQHandler    0x08010ec3    0x2c  Code  Gb  stm32f2xx_it.o [1]
+EXTI1_IRQHandler        0x08010e25    0x4e  Code  Gb  stm32f2xx_it.o [1]
+EXTI4_IRQHandler        0x08010e9d    0x26  Code  Gb  stm32f2xx_it.o [1]
+EXTILineNIRQ_Config     0x080096b1    0x5c  Code  Gb  radio_mcu.o [1]
+EXTI_ClearFlag          0x08009c11     0x6  Code  Gb  stm32f2xx_exti.o [1]
+EXTI_ClearITPendingBit  0x08009c3f     0x6  Code  Gb  stm32f2xx_exti.o [1]
+EXTI_GetITStatus        0x08009c17    0x28  Code  Gb  stm32f2xx_exti.o [1]
+EXTI_Init               0x08009b89    0x88  Code  Gb  stm32f2xx_exti.o [1]
+FrameBuffToRf           0x20001da8    0x24  Data  Gb  main.o [1]
+FrameBuffToUart         0x20001d84    0x24  Data  Gb  main.o [1]
+GPIO_CLK                0x080112dc    0x10  Data  Gb  stm32_eval.o [1]
+GPIO_Init               0x080098b9    0xaa  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_PIN                0x08011324     0x8  Data  Gb  stm32_eval.o [1]
+GPIO_PORT               0x200001f0    0x10  Data  Gb  stm32_eval.o [1]
+GPIO_PinAFConfig        0x08009985    0x5a  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x08009963    0x1a  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_ResetBits          0x08009981     0x4  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_SetBits            0x0800997d     0x4  Code  Gb  stm32f2xx_gpio.o [1]
+HEAP$$Base              0x20003e40           --   Gb  - Linker created -
+HEAP$$Limit             0x20005e40           --   Gb  - Linker created -
+HardFault_Handler       0x08010d8b     0x2  Code  Gb  stm32f2xx_it.o [1]
+Init_SI4463_Pin         0x080095cd    0xe4  Code  Gb  radio_mcu.o [1]
+LoadInt                 0x0800e8ef    0x4c  Code  Lc  xprintfsmall.o [3]
+MemManage_Handler       0x08010d8d     0x2  Code  Gb  stm32f2xx_it.o [1]
+NMI_Handler             0x08010d89     0x2  Code  Gb  stm32f2xx_it.o [1]
+NVIC_Config             0x080107d9    0x22  Code  Gb  main.o [1]
+NVIC_Init               0x0800983b    0x6a  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08009831     0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x080105c9    0x26  Code  Lc  zdo_start_zc.o [1]
+PKT_Sent_Flag           0x20001e39     0x1  Data  Gb  stm32f2xx_it.o [1]
+PayLoad                 0x20001d50    0x34  Data  Gb  common.o [1]
+PayLoadLen              0x20001e36     0x1  Data  Gb  common.o [1]
+PendSV_Handler          0x08010d97     0x2  Code  Gb  stm32f2xx_it.o [1]
+Pro2Cmd                 0x20001dfc    0x10  Data  Gb  si4463.o [1]
+RCC_AHB1PeriphClockCmd  0x08009ae1    0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08009aff    0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_GetClocksFreq       0x080099e1   0x100  Code  Gb  stm32f2xx_rcc.o [1]
+RF_Switch_RX            0x0800970d    0x12  Code  Gb  radio_mcu.o [1]
+RadioConfiguration      0x20000210     0xc  Data  Gb  radio.o [1]
+Radio_Configuration_Data_Array
+                        0x20000000   0x16c  Data  Gb  radio.o [1]
+Region$$Table$$Base     0x08011234           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08011258           --   Gb  - Linker created -
+RfRxFlag                0x20001e37     0x1  Data  Gb  radio.o [1]
+RxBuff2FrameBuff        0x08010cf3    0x8c  Code  Gb  common.o [1]
+RxBuffer                0x20001d10    0x40  Data  Gb  stm32f2xx_it.o [1]
+RxCounter               0x20001e34     0x2  Data  Gb  stm32f2xx_it.o [1]
+SI4463_Disable_NIRQ_Int
+                        0x0800957f    0x2a  Code  Gb  radio_mcu.o [1]
+SI4463_Enable_NIRQ_Int  0x08009555    0x2a  Code  Gb  radio_mcu.o [1]
+SI4463_Enable_NIRQ_RX   0x080095a9    0x24  Code  Gb  radio_mcu.o [1]
+SI4463_NSEL_Down        0x0800977f     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_NSEL_Up          0x08009773     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SCLK_Down        0x08009743     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SCLK_Up          0x08009737     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SDI_Down         0x0800975b     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SDI_Up           0x0800974f     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SDN_DOWN         0x0800972b     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SDN_UP           0x0800971f     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SDO_Bit          0x08009767     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SW1_DOWN         0x0800978b     0xc  Code  Gb  radio_mcu.o [1]
+SI4463_SW2_UP           0x08009797     0xc  Code  Gb  radio_mcu.o [1]
+STM_EVAL_COMInit        0x0801099d    0xf2  Code  Gb  stm32_eval.o [1]
+STM_EVAL_LEDInit        0x0801090d    0x60  Code  Gb  stm32_eval.o [1]
+STM_EVAL_LEDOff         0x08010985    0x18  Code  Gb  stm32_eval.o [1]
+STM_EVAL_LEDOn          0x0801096d    0x18  Code  Gb  stm32_eval.o [1]
+SVC_Handler             0x08010d93     0x2  Code  Gb  stm32f2xx_it.o [1]
+SYSCFG_EXTILineConfig   0x08009b35    0x50  Code  Gb  stm32f2xx_syscfg.o [1]
+SetSysClock             0x08010f37    0xb6  Code  Lc  system_stm32f2xx.o [1]
+Si446xCmd               0x20001de8    0x14  Data  Gb  si4463.o [1]
+SysTick_Config          0x080105ef    0x32  Code  Lc  zdo_start_zc.o [1]
+SysTick_Handler         0x08010d99    0x12  Code  Gb  stm32f2xx_it.o [1]
+SystemInit              0x08010ef1    0x46  Code  Gb  system_stm32f2xx.o [1]
+TimingDelay             0x20001e24     0x4  Data  Lc  main.o [1]
+TimingDelay_Decrement   0x080107c5    0x14  Code  Gb  main.o [1]
+USART1_IRQHandler       0x08010dab    0x7a  Code  Gb  stm32f2xx_it.o [1]
+USART_Cmd               0x080104b9    0x1c  Code  Gb  stm32f2xx_usart.o [1]
+USART_GetFlagStatus     0x0801053b    0x1e  Code  Gb  stm32f2xx_usart.o [1]
+USART_GetITStatus       0x08010559    0x6e  Code  Gb  stm32f2xx_usart.o [1]
+USART_ITConfig          0x080104e5    0x56  Code  Gb  stm32f2xx_usart.o [1]
+USART_Init              0x080103a1    0xee  Code  Gb  stm32f2xx_usart.o [1]
+USART_ReceiveData       0x080104dd     0x8  Code  Gb  stm32f2xx_usart.o [1]
+USART_SendData          0x080104d5     0x8  Code  Gb  stm32f2xx_usart.o [1]
+USART_StructInit        0x0801049d    0x1c  Code  Gb  stm32f2xx_usart.o [1]
+UartRxFlag              0x20001e3a     0x1  Data  Gb  uart.o [1]
+UartSendByte            0x080108c3    0x32  Code  Gb  uart.o [1]
+UartShowNodeInfo        0x080107fb    0x66  Code  Gb  main.o [1]
+UartShowString          0x080108f5    0x14  Code  Gb  uart.o [1]
+Uart_Config             0x0801087d    0x46  Code  Gb  uart.o [1]
+UsageFault_Handler      0x08010d91     0x2  Code  Gb  stm32f2xx_it.o [1]
+_EncodingSb_Mbtowc      0x0800eec3    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x0800eea9    0x1a  Code  Gb  xencoding_sb.o [3]
+_IsdstStr               0x20000170     0x4  Data  Gb  setlocale.o [3]
+_LitobSmall             0x0800eb61    0xce  Code  Lc  xprintfsmall.o [3]
+_LocaleEncoding         0x0800ee95     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x20000190    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x20000174    0x1c  Data  Gb  setlocale.o [3]
+_Mbtowc                 0x0800ec75    0x20  Code  Gb  xmbtowc.o [3]
+_PrintfSmall            0x0800e4d1   0x414  Code  Gb  xprintfsmall.o [3]
+_PutcharsSmall          0x0800ec2f    0x2e  Code  Lc  xprintfsmall.o [3]
+_PutstrSmall            0x0800e93b   0x226  Code  Lc  xprintfsmall.o [3]
+_SProut                 0x0800383f     0xa  Code  Gb  xsprout.o [3]
+_TzoneStr               0x2000016c     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x0800edf9    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_memset          0x0800510d          Code  Gb  ABImemset.o [5]
+__as_entries_start      0xffffffff           --   Gb  command line/config [2]
+__as_table_start        0xffffffff           --   Gb  command line/config [2]
+__cmain                 0x08011279          Code  Gb  cmain.o [5]
+__data_Aldata           0x20001e1c     0x8  Data  Gb  xxmemxmalloc.o [3]
+__data_GetMemChunk      0x0800ef09    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x080112a9    0x14  Code  Gb  exit.o [6]
+__iar_Mbcurmax          0x0800ed3d     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x0800ece5          Code  Gb  memchr.o [5]
+__iar_Memset            0x0800510d          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08005115          Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x0800ec95          Code  Gb  strchr.o [5]
+__iar_copy_init3        0x08001e0b    0x2e  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x0801120d    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x0800ef35     0x2  Code  Gb  xtls.o [3]
+__iar_program_start     0x08011309          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x080037c9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x080037e9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x080037e9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memmove
+                        0x0800717d          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove4
+                        0x0800717d          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove8
+                        0x0800717d          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned_memcmp  0x08005d09          Code  Gb  memcmp_unaligned.o [5]
+__iar_zero_init3        0x080037a7    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08011293     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f2xx.o [1]
+_call_main              0x08011285          Code  Gb  cmain.o [5]
+_exit                   0x0801129d          Code  Gb  cexit.o [5]
+_main                   0x0801128f          Code  Gb  cmain.o [5]
+add_ep_sorted           0x0800d951    0x50  Code  Lc  zdo_disc_srv.o [1]
+add_short_sorted        0x0800489d    0xdc  Code  Lc  zb_address.o [1]
+addr_add                0x080046f1    0xf8  Code  Lc  zb_address.o [1]
+alloc_new_extneiboard   0x080023f1    0x6c  Code  Lc  nwk_neighbor.o [1]
+aps_ack_frame_handle    0x0800a931    0xf4  Code  Lc  aps_main.o [1]
+aps_ack_send_handle     0x0800a725    0xa4  Code  Lc  aps_main.o [1]
+aps_check_dups          0x0800bdfd    0x70  Code  Gb  aps_dups.o [1]
+aps_data_hdr_fill_datareq
+                        0x0800a11b    0x94  Code  Lc  aps_main.o [1]
+aps_find_src_ref        0x0800acbd    0x62  Code  Gb  aps_bind.o [1]
+bSpi_ReadWriteSpi1      0x080097b5    0x40  Code  Gb  si4463_spi.o [1]
+base_neighbor_cleanup   0x080024bd     0x2  Code  Lc  nwk_neighbor.o [1]
+call_indirect_data_callback
+                        0x08007fe3    0x80  Code  Gb  mac_data.o [1]
+call_mlme_start         0x08007785    0xa4  Code  Lc  nwk_cr_formation.o [1]
+call_status_indication  0x08000de9    0x54  Code  Gb  nwk_main.o [1]
+can_accept_frame        0x08005287    0x50  Code  Lc  mac.o [1]
+check_cluster_list      0x0800af6d    0xd8  Code  Lc  zdo_bind_manage.o [1]
+check_frame_dst_addr    0x08005a27    0x40  Code  Lc  mac.o [1]
+check_pending_data      0x08009011    0xb0  Code  Lc  mac_cr_data.o [1]
+clock_tick              0x08004979    0xd2  Code  Lc  zb_address.o [1]
+copy_cluster_id         0x0800d9a1    0x28  Code  Gb  zdo_disc_srv.o [1]
+ctsWentHigh             0x20001e38     0x1  Data  Gb  radio_comm.o [1]
+data_indication         0x080106e5    0x3c  Code  Gb  zdo_start_zc.o [1]
+del_short_sorted        0x08004827    0x76  Code  Lc  zb_address.o [1]
+done_with_this_ack      0x0800aa29    0xd4  Code  Lc  aps_main.o [1]
+exit                    0x08011297     0x4  Code  Gb  exit.o [3]
+fill_empty_frame        0x080090c1   0x110  Code  Lc  mac_cr_data.o [1]
+fill_nldereq            0x0800a6eb    0x3a  Code  Lc  aps_main.o [1]
+free                    0x0800ee15    0x7a  Code  Gb  xxmemxfree.o [3]
+gRadio_CheckReceived    0x08010b2b    0x60  Code  Gb  radio.o [1]
+g_izb                   0x20001dcc    0x1c  Data  Gb  zb_init.o [1]
+g_zb                    0x20000240  0x1ad0  Data  Gb  zb_init.o [1]
+g_zc_addr               0x20000224     0x8  Data  Gb  zdo_start_zc.o [1]
+g_zero_addr             0x20001e14     0x8  Data  Gb  zb_init.o [1]
+ieee_search             0x080045d1    0x6c  Code  Lc  zb_address.o [1]
+indirect_data_callback_caller
+                        0x08007fbd    0x26  Code  Gb  mac_data.o [1]
+init_config_attr        0x0800b4cb    0x2a  Code  Lc  zdo_app.o [1]
+init_zu2400             0x0800795d     0x2  Code  Gb  zb_si44xx.o [1]
+insert_tmq_head         0x08003a97    0x30  Code  Lc  zb_scheduler.o [1]
+mac_is_frame_visible    0x08005be1    0xf8  Code  Lc  mac.o [1]
+magic_bitcount8         0x08004a8f    0x2a  Code  Gb  zb_address.o [1]
+main                    0x08010621    0x98  Code  Gb  zdo_start_zc.o [1]
+malloc                  0x0800ed49    0xac  Code  Gb  xxmemxmalloc.o [3]
+memchr                  0x0800ece5          Code  Gb  memchr.o [5]
+new_buffer_allocated    0x08000f7d   0x118  Code  Gb  nwk_main.o [1]
+nwk_alloc_and_fill_cmd  0x08000343    0x28  Code  Gb  nwk_main.o [1]
+nwk_alloc_and_fill_hdr  0x080001ef   0x154  Code  Gb  nwk_main.o [1]
+nwk_association_join    0x080063a5   0x18e  Code  Lc  nwk_join.o [1]
+nwk_broadcast_transmition
+                        0x08000665   0x47a  Code  Gb  nwk_main.o [1]
+nwk_calc_destination    0x08000431   0x234  Code  Lc  nwk_main.o [1]
+nwk_choose_parent       0x080062cd    0xd8  Code  Lc  nwk_join.o [1]
+nwk_formation_ed_scan_confirm
+                        0x08007343    0xf8  Code  Gb  nwk_cr_formation.o [1]
+nwk_formation_select_channel
+                        0x0800743b   0x256  Code  Gb  nwk_cr_formation.o [1]
+nwk_frame_indication    0x080016dd   0x22a  Code  Gb  nwk_main.o [1]
+nwk_get_mac_source_addr
+                        0x08002945    0x32  Code  Lc  nwk_cr_mesh_routing.o [1]
+nwk_join_failure_confirm
+                        0x08006269    0x64  Code  Lc  nwk_join.o [1]
+nwk_permit_timeout      0x08011125    0x12  Code  Gb  nwk_cr_permit_join.o [1]
+pRadioConfiguration     0x2000022c     0x4  Data  Gb  radio.o [1]
+pending_queue_is_empty  0x08008fbd    0x2e  Code  Gb  mac_cr_data.o [1]
+radio_comm_ClearCTS     0x08008835     0x8  Code  Gb  radio_comm.o [1]
+radio_comm_GetResp      0x0800883d    0x5c  Code  Gb  radio_comm.o [1]
+radio_comm_PollCTS      0x08008899     0xc  Code  Gb  radio_comm.o [1]
+radio_comm_ReadData     0x080088fb    0x40  Code  Gb  radio_comm.o [1]
+radio_comm_SendCmd      0x080088a5    0x36  Code  Gb  radio_comm.o [1]
+radio_comm_SendCmdGetResp
+                        0x080088db    0x20  Code  Gb  radio_comm.o [1]
+radio_hal_AssertShutdown
+                        0x08008941     0x8  Code  Gb  radio_hal.o [1]
+radio_hal_ClearNsel     0x08008951     0x8  Code  Gb  radio_hal.o [1]
+radio_hal_DeassertShutdown
+                        0x08008949     0x8  Code  Gb  radio_hal.o [1]
+radio_hal_SetNsel       0x08008959     0x8  Code  Gb  radio_hal.o [1]
+radio_hal_SpiReadByte   0x0800896f     0xa  Code  Gb  radio_hal.o [1]
+radio_hal_SpiReadData   0x08008979    0x12  Code  Gb  radio_hal.o [1]
+radio_hal_SpiWriteByte  0x08008961     0xe  Code  Gb  radio_hal.o [1]
+radio_hal_SpiWriteData  0x0800898b    0x12  Code  Gb  radio_hal.o [1]
+register_zdo_cb         0x0800c067    0x76  Code  Gb  zdo_common.o [1]
+remove_parent_from_potential_parents
+                        0x08006ad7    0x68  Code  Gb  nwk_join.o [1]
+save_ack_data           0x0800a7c9   0x160  Code  Lc  aps_main.o [1]
+send_bind_unbind_req    0x0800b1f5    0xd4  Code  Lc  zdo_bind_manage.o [1]
+send_bind_unbind_with_check
+                        0x0800b2c9    0xbe  Code  Lc  zdo_bind_manage.o [1]
+short_search            0x0800463d    0xb4  Code  Lc  zb_address.o [1]
+si446x_change_state     0x08008407    0x18  Code  Gb  si4463.o [1]
+si446x_configuration_init
+                        0x080083b9    0x4e  Code  Gb  si4463.o [1]
+si446x_fifo_info        0x080082b1    0x3c  Code  Gb  si4463.o [1]
+si446x_get_int_status   0x080082ed    0x94  Code  Gb  si4463.o [1]
+si446x_read_rx_fifo     0x08008495    0x16  Code  Gb  si4463.o [1]
+si446x_reset            0x08008381    0x38  Code  Gb  si4463.o [1]
+si446x_start_rx         0x0800841f    0x46  Code  Gb  si4463.o [1]
+si446x_start_tx         0x08008465    0x30  Code  Gb  si4463.o [1]
+sprintf                 0x08010cb9    0x34  Code  Gb  sprintf.o [3]
+strchr                  0x0800ec95          Code  Gb  strchr.o [5]
+strlen                  0x0800ecad          Code  Gb  strlen.o [5]
+tmpGlobalTime           0x20001e28     0x4  Data  Gb  stm32f2xx_it.o [1]
+trx_state               0x2000023c     0x1  Data  Gb  stm32f2xx_it.o [1]
+vRadio_Init             0x08010ae7    0x3c  Code  Gb  radio.o [1]
+vRadio_PowerUp          0x08010acd    0x1a  Code  Gb  radio.o [1]
+vRadio_StartRX          0x08010b8b    0x2c  Code  Gb  radio.o [1]
+vSpi_ReadDataSpi1       0x080097f5    0x1e  Code  Gb  si4463_spi.o [1]
+vSpi_WriteDataSpi1      0x08009813    0x1c  Code  Gb  si4463_spi.o [1]
+zb_accept_ass_request_cmd
+                        0x080102e5    0xa6  Code  Gb  mac_cr_associate.o [1]
+zb_accept_data_request_cmd
+                        0x08008feb    0x26  Code  Gb  mac_cr_data.o [1]
+zb_address_by_ieee      0x08004161    0x86  Code  Gb  zb_address.o [1]
+zb_address_by_ref       0x080043cd    0x5c  Code  Gb  zb_address.o [1]
+zb_address_by_short     0x080041e7    0x80  Code  Gb  zb_address.o [1]
+zb_address_cmp_pan_id_by_ref
+                        0x08003ff1    0x30  Code  Gb  zb_address.o [1]
+zb_address_compressed_cmp
+                        0x08004a69    0x26  Code  Gb  zb_address.o [1]
+zb_address_compressed_ieee_hash
+                        0x08004107    0x5a  Code  Lc  zb_address.o [1]
+zb_address_delete       0x080047e9    0x3e  Code  Gb  zb_address.o [1]
+zb_address_get_pan_id   0x08003ee5    0x26  Code  Gb  zb_address.o [1]
+zb_address_get_pan_id_ref
+                        0x08003f0b    0xd0  Code  Gb  zb_address.o [1]
+zb_address_get_short_pan_id
+                        0x08003fdb    0x16  Code  Gb  zb_address.o [1]
+zb_address_ieee_by_ref  0x08004429    0x54  Code  Gb  zb_address.o [1]
+zb_address_ieee_by_short
+                        0x080044c9    0x70  Code  Gb  zb_address.o [1]
+zb_address_lock         0x08004539    0x5e  Code  Gb  zb_address.o [1]
+zb_address_set_pan_id   0x08003d8b   0x15a  Code  Gb  zb_address.o [1]
+zb_address_short_by_ieee
+                        0x08004495    0x34  Code  Gb  zb_address.o [1]
+zb_address_short_by_ref
+                        0x0800447d    0x18  Code  Gb  zb_address.o [1]
+zb_address_unlock       0x08004597    0x3a  Code  Gb  zb_address.o [1]
+zb_address_update       0x08004267   0x166  Code  Gb  zb_address.o [1]
+zb_af_set_data_indication
+                        0x08010c21     0x6  Code  Gb  af_rx.o [1]
+zb_aps_ack_timer_cb     0x0800ab0d   0x162  Code  Gb  aps_main.o [1]
+zb_aps_check_timer_cb   0x0800be6d    0x80  Code  Gb  aps_dups.o [1]
+zb_aps_full_hdr_size    0x0800a1af    0x2c  Code  Gb  aps_main.o [1]
+zb_aps_hdr_parse        0x0800a4bb    0xba  Code  Gb  aps_main.o [1]
+zb_aps_in_command_handle
+                        0x0800befd    0x1c  Code  Gb  aps_commands.o [1]
+zb_aps_init             0x08009c59    0x4e  Code  Gb  aps_main.o [1]
+zb_aps_pass_group_msg_up
+                        0x0800a575   0x176  Code  Gb  aps_main.o [1]
+zb_aps_pass_local_group_pkt_up
+                        0x08009fc1    0xdc  Code  Gb  aps_main.o [1]
+zb_aps_pass_up_group_buf
+                        0x0800a09d    0x7e  Code  Gb  aps_main.o [1]
+zb_aps_send_ack_and_continue
+                        0x0800a3c1    0x4c  Code  Gb  aps_main.o [1]
+zb_apsde_data_acknowledged
+                        0x08010c27    0x84  Code  Gb  af_rx.o [1]
+zb_apsde_data_confirm   0x0800ba85    0xa4  Code  Gb  zdo_app.o [1]
+zb_apsde_data_indication
+                        0x08010bd5    0x4c  Code  Gb  af_rx.o [1]
+zb_apsde_data_request   0x08009d79   0x246  Code  Gb  aps_main.o [1]
+zb_beacon_request_command
+                        0x080085cf    0xc8  Code  Gb  mac_routines.o [1]
+zb_buf_assign_param     0x080036a7    0x64  Code  Gb  zb_bufpool.o [1]
+zb_buf_cut_left         0x0800370b    0x14  Code  Gb  zb_bufpool.o [1]
+zb_buf_cut_right        0x0800371f     0x8  Code  Gb  zb_bufpool.o [1]
+zb_buf_initial_alloc    0x08003611    0x36  Code  Gb  zb_bufpool.o [1]
+zb_buf_reuse            0x0800372f    0x1e  Code  Gb  zb_bufpool.o [1]
+zb_buf_smart_alloc_left
+                        0x08003647    0x46  Code  Gb  zb_bufpool.o [1]
+zb_buf_smart_alloc_right
+                        0x0800368d    0x1a  Code  Gb  zb_bufpool.o [1]
+zb_bzero_short          0x08003793    0x14  Code  Gb  zb_random.o [1]
+zb_check_bit_in_bit_vector
+                        0x08003d39    0x26  Code  Lc  zb_address.o [1]
+zb_check_cmd_tx_status  0x080059d9    0x4e  Code  Gb  mac.o [1]
+zb_copy_node_desc       0x0800d17b    0x1e  Code  Gb  zdo_disc_srv.o [1]
+zb_copy_power_desc      0x0800d199     0x6  Code  Gb  zdo_disc_srv.o [1]
+zb_copy_simple_desc     0x0800d19f    0x7e  Code  Gb  zdo_disc_srv.o [1]
+zb_fcf_set_dst_addressing_mode
+                        0x0800589f    0x12  Code  Gb  mac.o [1]
+zb_fcf_set_src_addressing_mode
+                        0x0800588d    0x12  Code  Gb  mac.o [1]
+zb_free_buf             0x0800351f    0xe8  Code  Gb  zb_bufpool.o [1]
+zb_get_buf              0x080033e1    0x54  Code  Lc  zb_bufpool.o [1]
+zb_get_buf_delayed      0x08003449    0xba  Code  Lc  zb_bufpool.o [1]
+zb_get_buf_tail         0x08003727     0x8  Code  Gb  zb_bufpool.o [1]
+zb_get_in_buf           0x08003435     0xa  Code  Gb  zb_bufpool.o [1]
+zb_get_in_buf_delayed   0x08003503     0xe  Code  Gb  zb_bufpool.o [1]
+zb_get_next_letoh16     0x08003779     0xe  Code  Gb  zb_random.o [1]
+zb_get_out_buf          0x0800343f     0xa  Code  Gb  zb_bufpool.o [1]
+zb_get_out_buf_delayed  0x08003511     0xe  Code  Gb  zb_bufpool.o [1]
+zb_get_peer_short_addr  0x0800aee5    0x44  Code  Gb  zdo_bind_manage.o [1]
+zb_get_peer_short_addr_cb
+                        0x0800ae73    0x72  Code  Gb  zdo_bind_manage.o [1]
+zb_handle_associate_response
+                        0x0801013d   0x1a8  Code  Gb  mac_cr_associate.o [1]
+zb_handle_beacon_req    0x08008e27    0x56  Code  Gb  mac_cr_coordinator.o [1]
+zb_handle_data_frame    0x08007f67    0x56  Code  Gb  mac_data.o [1]
+zb_handle_data_request_cmd
+                        0x080091d1   0x226  Code  Gb  mac_cr_data.o [1]
+zb_handle_data_request_cmd_continue
+                        0x080093f9   0x146  Code  Gb  mac_cr_data.o [1]
+zb_handle_mcps_data_req
+                        0x08007dfd    0xa0  Code  Gb  mac_data.o [1]
+zb_handle_mcps_data_req_continue
+                        0x08007e9d    0xca  Code  Gb  mac_data.o [1]
+zb_handle_parms_before_start
+                        0x0800c4dd    0x2e  Code  Gb  zb_init.o [1]
+zb_handle_poll_request  0x08005a69   0x15a  Code  Gb  mac.o [1]
+zb_handle_scan_request  0x0800ef39    0x78  Code  Gb  mac_scan.o [1]
+zb_ib_load              0x0800ceb1     0x2  Code  Gb  zb_ib.o [1]
+zb_ib_set_defaults      0x0800ce4d    0x52  Code  Gb  zb_ib.o [1]
+zb_ieee_addr_compress   0x08004021    0xa6  Code  Gb  zb_address.o [1]
+zb_ieee_addr_decompress
+                        0x080040c7    0x40  Code  Gb  zb_address.o [1]
+zb_init                 0x0800c48d    0x50  Code  Gb  zb_init.o [1]
+zb_init_buffers         0x0800cf1d    0x40  Code  Gb  zb_bufpool_init.o [1]
+zb_mac_ack_timeout      0x080058b1    0x16  Code  Gb  mac.o [1]
+zb_mac_calculate_mhr_length
+                        0x0800556d    0x30  Code  Gb  mac.o [1]
+zb_mac_fill_mhr         0x0800559d    0xb2  Code  Gb  mac.o [1]
+zb_mac_get_indirect_data
+                        0x08007bf9    0xa2  Code  Gb  mac_data.o [1]
+zb_mac_indirect_data_timeout
+                        0x0800598d    0x4c  Code  Gb  mac.o [1]
+zb_mac_init             0x08005175    0x54  Code  Gb  mac.o [1]
+zb_mac_main_loop        0x080052d7   0x108  Code  Gb  mac.o [1]
+zb_mac_parse_recv_data  0x080053e1   0x18c  Code  Gb  mac.o [1]
+zb_mac_pending_data_timeout
+                        0x0800872b    0x36  Code  Gb  mac_routines.o [1]
+zb_mac_process_mlme_start
+                        0x080084b5    0xa8  Code  Gb  mac_routines.o [1]
+zb_mac_put_data_to_pending_queue
+                        0x08008761    0x6c  Code  Gb  mac_routines.o [1]
+zb_mac_put_request_to_queue
+                        0x080087cd    0x4e  Code  Gb  mac_routines.o [1]
+zb_mac_recv_data        0x080051c9    0xbe  Code  Gb  mac.o [1]
+zb_mac_resp_timeout     0x080058c7    0xc4  Code  Gb  mac.o [1]
+zb_mac_send_comm_status
+                        0x08008697    0x94  Code  Gb  mac_routines.o [1]
+zb_mac_setup_for_associate
+                        0x08008121    0x30  Code  Gb  mac_associate.o [1]
+zb_mac_update_superframe_and_pib
+                        0x08008dc1    0x66  Code  Gb  mac_cr_coordinator.o [1]
+zb_mcps_data_confirm    0x08000e41   0x13c  Code  Gb  nwk_main.o [1]
+zb_mcps_data_indication
+                        0x080010ad   0x59e  Code  Gb  nwk_main.o [1]
+zb_mcps_data_request    0x08007de9    0x12  Code  Gb  mac_data.o [1]
+zb_mcps_data_request_fill_hdr
+                        0x08007c9b   0x14e  Code  Gb  mac_data.o [1]
+zb_mlme_ack_accept      0x08005871    0x1c  Code  Gb  mac.o [1]
+zb_mlme_active_scan     0x0800f2b9    0x34  Code  Gb  mac_scan.o [1]
+zb_mlme_associate_confirm
+                        0x08006533   0x322  Code  Gb  nwk_join.o [1]
+zb_mlme_associate_indication
+                        0x08004f43    0x8a  Code  Gb  nwk_cr_join.o [1]
+zb_mlme_associate_request
+                        0x08008081    0x78  Code  Gb  mac_associate.o [1]
+zb_mlme_associate_response
+                        0x080100f9    0x44  Code  Gb  mac_cr_associate.o [1]
+zb_mlme_beacon_notify_indication
+                        0x0800de11   0x340  Code  Gb  nwk_discovery.o [1]
+zb_mlme_comm_status_indication
+                        0x08006fa5   0x108  Code  Gb  nwk_join.o [1]
+zb_mlme_command_accept  0x08005651   0x21e  Code  Gb  mac.o [1]
+zb_mlme_ed_scan         0x0800f0a9    0x8a  Code  Gb  mac_scan.o [1]
+zb_mlme_handle_orphan_response
+                        0x08008e7d    0x7c  Code  Gb  mac_cr_coordinator.o [1]
+zb_mlme_handle_orphan_response_continue
+                        0x08008ef9    0xaa  Code  Gb  mac_cr_coordinator.o [1]
+zb_mlme_orphan_indication
+                        0x08006e7d    0x84  Code  Gb  nwk_join.o [1]
+zb_mlme_orphan_scan     0x0800f2ed    0x34  Code  Gb  mac_scan.o [1]
+zb_mlme_poll_confirm    0x08010083    0x4c  Code  Gb  nwk_nlme.o [1]
+zb_mlme_scan_confirm    0x0800e151   0x342  Code  Gb  nwk_discovery.o [1]
+zb_mlme_scan_request    0x0800efb1    0xf8  Code  Gb  mac_scan.o [1]
+zb_mlme_scan_step       0x0800f135   0x184  Code  Gb  mac_scan.o [1]
+zb_mlme_send_association_req_cmd
+                        0x08008151   0x150  Code  Gb  mac_associate.o [1]
+zb_mlme_send_association_req_continue
+                        0x080080f9    0x28  Code  Gb  mac_associate.o [1]
+zb_mlme_send_data_req_cmd
+                        0x08007a9d   0x15c  Code  Gb  mac_data.o [1]
+zb_mlme_start_confirm   0x08011015   0x110  Code  Gb  nwk_formation.o [1]
+zb_mlme_start_request   0x0800855d    0x72  Code  Gb  mac_routines.o [1]
+zb_nlde_data_confirm    0x0800a1db   0x130  Code  Gb  aps_main.o [1]
+zb_nlde_data_indication
+                        0x0800a30b    0xb4  Code  Gb  aps_main.o [1]
+zb_nlde_data_indication_continue
+                        0x0800a40d    0xae  Code  Gb  aps_main.o [1]
+zb_nlde_data_request    0x0800036b    0xc6  Code  Gb  nwk_main.o [1]
+zb_nlme_ed_scan_confirm
+                        0x0800f977    0xde  Code  Gb  zdo_channel_manager.o [1]
+zb_nlme_ed_scan_request
+                        0x0800dd4d    0xc4  Code  Gb  nwk_discovery.o [1]
+zb_nlme_join_confirm    0x0800b89b   0x126  Code  Gb  zdo_app.o [1]
+zb_nlme_join_indication
+                        0x0800b71f    0x1a  Code  Gb  zdo_app.o [1]
+zb_nlme_join_request    0x08006f01    0x94  Code  Gb  nwk_join.o [1]
+zb_nlme_leave_confirm   0x0800bcdb    0x8a  Code  Gb  zdo_app.o [1]
+zb_nlme_leave_indication
+                        0x0800bc79    0x62  Code  Gb  zdo_app.o [1]
+zb_nlme_leave_request   0x0800fdad   0x25c  Code  Gb  nwk_nlme.o [1]
+zb_nlme_network_discovery_confirm
+                        0x0800b739   0x12c  Code  Gb  zdo_app.o [1]
+zb_nlme_network_discovery_request
+                        0x0800dc9d    0xb0  Code  Gb  nwk_discovery.o [1]
+zb_nlme_network_formation_confirm
+                        0x0800b6a3    0x44  Code  Gb  zdo_app.o [1]
+zb_nlme_network_formation_request
+                        0x08007231   0x112  Code  Gb  nwk_cr_formation.o [1]
+zb_nlme_orphan_scan     0x08006dd9    0x66  Code  Lc  nwk_join.o [1]
+zb_nlme_orphan_scan_confirm
+                        0x08006e3f    0x3e  Code  Gb  nwk_join.o [1]
+zb_nlme_permit_joining_confirm
+                        0x0800b6e7    0x38  Code  Gb  zdo_app.o [1]
+zb_nlme_permit_joining_request
+                        0x08011137    0xc6  Code  Gb  nwk_cr_permit_join.o [1]
+zb_nlme_rejoin          0x08006855    0xbe  Code  Lc  nwk_join.o [1]
+zb_nlme_rejoin_request  0x08004ab9   0x162  Code  Gb  nwk_cr_join.o [1]
+zb_nlme_rejoin_resp_sent
+                        0x08004c1b    0xde  Code  Gb  nwk_cr_join.o [1]
+zb_nlme_rejoin_response
+                        0x08006bc1   0x218  Code  Gb  nwk_join.o [1]
+zb_nlme_rejoin_response_timeout
+                        0x08006b3f    0x82  Code  Gb  nwk_join.o [1]
+zb_nlme_rejoin_scan_confirm
+                        0x08006913   0x1c4  Code  Gb  nwk_join.o [1]
+zb_nlme_route_discovery_confirm
+                        0x08011259    0x20  Code  Gb  aps_nwk_confirm.o [1]
+zb_nlme_start_router_confirm
+                        0x0800b889    0x12  Code  Gb  zdo_app.o [1]
+zb_nlme_start_router_request
+                        0x08007691    0xf4  Code  Gb  nwk_cr_formation.o [1]
+zb_nlme_status_indication
+                        0x0800bc55    0x24  Code  Gb  zdo_app.o [1]
+zb_nlme_sync_confirm    0x0800bb29    0xa6  Code  Gb  zdo_app.o [1]
+zb_nlme_sync_request    0x08010009    0x7a  Code  Gb  nwk_nlme.o [1]
+zb_nwk_accept_child     0x08004cf9   0x24a  Code  Lc  nwk_cr_join.o [1]
+zb_nwk_btr_expiry       0x0800190d    0xde  Code  Gb  nwk_main.o [1]
+zb_nwk_call_br_confirm  0x0800164d    0x86  Code  Gb  nwk_main.o [1]
+zb_nwk_call_leave_ind   0x08001bbd    0x54  Code  Lc  nwk_main.o [1]
+zb_nwk_daa_calc_cskip   0x080070f5    0x88  Code  Gb  nwk_address_assign.o [1]
+zb_nwk_do_leave         0x08001c37   0x128  Code  Gb  nwk_main.o [1]
+zb_nwk_do_leave_local   0x0800cdb1    0x12  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_nwk_exneighbor_by_ieee
+                        0x08002343    0xae  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_exneighbor_by_short
+                        0x080022db    0x68  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_exneighbor_start
+                        0x08001e59   0x190  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_exneighbor_stop  0x08001fe9   0x2f2  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_fill_out_command
+                        0x08005e8f    0xe8  Code  Gb  nwk_panid_conflict.o [1]
+zb_nwk_forget_device    0x08001c21    0x16  Code  Gb  nwk_main.o [1]
+zb_nwk_forward          0x08000ae1   0x308  Code  Gb  nwk_main.o [1]
+zb_nwk_hdr_size         0x08001de9    0x22  Code  Gb  nwk_main.o [1]
+zb_nwk_init             0x08000185    0x20  Code  Gb  nwk_main.o [1]
+zb_nwk_leave_handler    0x080019eb   0x1ac  Code  Lc  nwk_main.o [1]
+zb_nwk_leave_ind_prnt   0x08001ba1    0x16  Code  Gb  nwk_main.o [1]
+zb_nwk_mesh_add_buf_to_pending
+                        0x0800333d    0x84  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_find_route  0x080032b1    0x46  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_find_route_discovery_entry
+                        0x080032f7    0x46  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_initiate_route_discovery
+                        0x08002ad7    0x86  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_route_discovery
+                        0x08002b5d    0x88  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_routing_init
+                        0x08002977     0x2  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_rrep_handler
+                        0x08002f8d   0x324  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_rreq_handler
+                        0x08002be5   0x3a8  Code  Gb  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_send_rrep   0x08002a2b    0xac  Code  Lc  nwk_cr_mesh_routing.o [1]
+zb_nwk_mesh_send_rreq   0x08002979    0xb2  Code  Lc  nwk_cr_mesh_routing.o [1]
+zb_nwk_neighbor_delete  0x0800245d    0x60  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_ext_to_base_tmp
+                        0x080025b9    0xec  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_get     0x080024bf    0xfa  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_get_by_ieee
+                        0x080026d7    0x30  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_get_by_short
+                        0x080026a5    0x32  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_init    0x08001e39    0x20  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_neighbor_next_ze_children_i
+                        0x08002707    0xb8  Code  Gb  nwk_neighbor.o [1]
+zb_nwk_nib_init         0x080001a5    0x4a  Code  Gb  nwk_main.o [1]
+zb_nwk_set_device_type  0x08001d5f    0x36  Code  Gb  nwk_main.o [1]
+zb_nwk_tree_routing_find_router
+                        0x080027f1    0xd6  Code  Lc  nwk_cr_tree_routing.o [1]
+zb_nwk_tree_routing_init
+                        0x080027e5     0xc  Code  Gb  nwk_cr_tree_routing.o [1]
+zb_nwk_tree_routing_route
+                        0x080028c7    0x78  Code  Gb  nwk_cr_tree_routing.o [1]
+zb_nwk_update_beacon_payload
+                        0x08007829    0xe6  Code  Gb  nwk_cr_formation.o [1]
+zb_orphan_notification_command
+                        0x0800f321    0xf8  Code  Gb  mac_scan.o [1]
+zb_panid_conflict_got_network_report
+                        0x08005d6d    0x72  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_network_update
+                        0x08005e2b    0x64  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_network_update_recv
+                        0x0800618b    0x38  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_remember_panid
+                        0x08005ddf    0x4c  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_schedule_network_report
+                        0x08005f77    0x84  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_send_network_report
+                        0x08005ffd    0xec  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_send_nwk_update
+                        0x080060e9    0x6a  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_send_status_ind
+                        0x08006155    0x36  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_set_panid
+                        0x080061d5    0x6c  Code  Gb  nwk_panid_conflict.o [1]
+zb_panid_conflict_set_panid_alarm
+                        0x080061c5     0xe  Code  Gb  nwk_panid_conflict.o [1]
+zb_parse_mhr            0x08004fe5    0xd8  Code  Gb  mac_common.o [1]
+zb_put_next_htole16     0x08003787     0xc  Code  Gb  zb_random.o [1]
+zb_random               0x0800374d    0x20  Code  Gb  zb_random.o [1]
+zb_realign_pan          0x08008b97    0x82  Code  Gb  mac_cr_coordinator.o [1]
+zb_sched_init           0x0800ceb5    0x68  Code  Gb  zb_scheduler_init.o [1]
+zb_sched_loop_iteration
+                        0x08003849   0x18e  Code  Gb  zb_scheduler.o [1]
+zb_schedule_alarm       0x08003ac7   0x1d8  Code  Gb  zb_scheduler.o [1]
+zb_schedule_alarm_cancel
+                        0x08003c9f    0x92  Code  Gb  zb_scheduler.o [1]
+zb_schedule_callback    0x08003a3b    0x5c  Code  Gb  zb_scheduler.o [1]
+zb_schedule_tx_cb       0x080039d7    0x64  Code  Gb  zb_scheduler.o [1]
+zb_search_dst_in_binding_table
+                        0x08009ca7    0xd2  Code  Lc  aps_main.o [1]
+zb_send_beacon_frame    0x08008c19   0x1a8  Code  Gb  mac_cr_coordinator.o [1]
+zb_set_bit_in_bit_vector
+                        0x08003d5f    0x2c  Code  Lc  zb_address.o [1]
+zb_set_default_ffd_descriptor_values
+                        0x0800c433    0x24  Code  Gb  af_descriptor.o [1]
+zb_set_input_cluster_id
+                        0x0800c3b7     0xa  Code  Gb  af_descriptor.o [1]
+zb_set_node_descriptor  0x0800c241    0xd8  Code  Gb  af_descriptor.o [1]
+zb_set_node_power_descriptor
+                        0x0800c319    0x72  Code  Gb  af_descriptor.o [1]
+zb_set_output_cluster_id
+                        0x0800c3c1     0xe  Code  Gb  af_descriptor.o [1]
+zb_set_pan_id           0x08007971     0x2  Code  Gb  zb_si44xx.o [1]
+zb_set_simple_descriptor
+                        0x0800c38b    0x2c  Code  Gb  af_descriptor.o [1]
+zb_set_zdo_descriptor   0x0800c3cf    0x64  Code  Gb  af_descriptor.o [1]
+zb_si4463_fifo_write    0x08007a8d     0xe  Code  Gb  zb_si44xx.o [1]
+zb_start_ed_scan        0x0800c779    0x48  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_start_get_peer_short_addr
+                        0x0800af29    0x24  Code  Gb  zdo_bind_manage.o [1]
+zb_timer_start          0x080071f5    0x2e  Code  Gb  zb_time.o [1]
+zb_timer_stop_async     0x08007223     0x8  Code  Gb  zb_time.o [1]
+zb_transceiver_get_rssi
+                        0x08007973     0x2  Code  Gb  zb_si44xx.o [1]
+zb_transceiver_send_fifo_packet
+                        0x08007975   0x10c  Code  Gb  zb_si44xx.o [1]
+zb_transceiver_set_channel
+                        0x08007967     0x8  Code  Gb  zb_si44xx.o [1]
+zb_transceiver_update_long_mac
+                        0x0800796f     0x2  Code  Gb  zb_si44xx.o [1]
+zb_tx_coord_realignment_cmd
+                        0x080089d5   0x1c2  Code  Gb  mac_cr_coordinator.o [1]
+zb_tx_fail_inc          0x080050df    0x22  Code  Gb  mac_common.o [1]
+zb_tx_total_inc         0x080050bd    0x22  Code  Gb  mac_common.o [1]
+zb_ubec_check_int_status
+                        0x0800795f     0x8  Code  Gb  zb_si44xx.o [1]
+zb_zdo_bind_req         0x0800ad29    0x14  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_bind_unbind_check_cb
+                        0x0800b389    0x4a  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_bind_unbind_req  0x0800ad51    0xb4  Code  Lc  zdo_bind_manage.o [1]
+zb_zdo_bind_unbind_res  0x0800ae05    0x6e  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_channel_change_timer_cb
+                        0x0800fc95     0xe  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_channel_check_finish_cb
+                        0x0800faf5    0x28  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_channel_check_scan_result
+                        0x0800fa55    0xa0  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_channel_check_timer_cb
+                        0x0800f969     0xe  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_check_fails      0x0800f8d1    0x96  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_data_indication  0x0800f435   0x29c  Code  Gb  zdo_rx.o [1]
+zb_zdo_end_device_bind_cb
+                        0x0800b3d5    0x12  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_end_device_bind_handler
+                        0x0800b045   0x168  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_end_device_bind_resp
+                        0x0800b3fb    0x4c  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_end_device_bind_timer
+                        0x0800af4d    0x20  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_end_device_unbind_cb
+                        0x0800b3e9    0x12  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_init             0x0800b491    0x3a  Code  Gb  zdo_app.o [1]
+zb_zdo_long_timer_cb    0x0800fc5d    0x38  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_mgmt_nwk_update_handler
+                        0x0800c51d   0x17a  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_zdo_mgmt_nwk_update_req
+                        0x0800fce1    0xc2  Code  Gb  zdo_nwk_manage_cli.o [1]
+zb_zdo_mgmt_permit_joining_handle
+                        0x0800cdc3    0x3e  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_zdo_new_channel_cb   0x0800c7c1    0x34  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_zdo_nwk_addr_req     0x0800c1dd    0x60  Code  Gb  zdo_disc_cli.o [1]
+zb_zdo_nwk_upd_notify   0x0800c697    0xe0  Code  Gb  zdo_nwk_manage_srv.o [1]
+zb_zdo_poll_parent      0x0800bc0d    0x48  Code  Gb  zdo_app.o [1]
+zb_zdo_reschedule_poll_parent
+                        0x0800bbcf    0x3e  Code  Gb  zdo_app.o [1]
+zb_zdo_send_check_bind_unbind
+                        0x0800b1b1    0x44  Code  Gb  zdo_bind_manage.o [1]
+zb_zdo_start_long_timer
+                        0x0800fc37    0x24  Code  Gb  zdo_channel_manager.o [1]
+zb_zdo_startup_complete
+                        0x080106b9    0x2a  Code  Gb  zdo_start_zc.o [1]
+zb_zdo_unbind_req       0x0800ad3d    0x14  Code  Gb  zdo_bind_manage.o [1]
+zc_send_data            0x08010721    0x72  Code  Lc  zdo_start_zc.o [1]
+zdo_active_ep_res       0x0800d80d   0x144  Code  Gb  zdo_disc_srv.o [1]
+zdo_af_resp             0x0800c0dd    0xe8  Code  Gb  zdo_common.o [1]
+zdo_change_channel      0x0800fb1d   0x11a  Code  Gb  zdo_channel_manager.o [1]
+zdo_dev_start           0x0800b4fd   0x102  Code  Gb  zdo_app.o [1]
+zdo_device_annce_srv    0x0800f6d1   0x122  Code  Lc  zdo_rx.o [1]
+zdo_device_ieee_addr_res
+                        0x0800d551   0x2bc  Code  Gb  zdo_disc_srv.o [1]
+zdo_device_info_upd     0x0800f805    0xcc  Code  Gb  zdo_rx.o [1]
+zdo_device_nwk_addr_res
+                        0x0800d21d   0x334  Code  Gb  zdo_disc_srv.o [1]
+zdo_initiate_rejoin     0x0800b5ff    0xa4  Code  Gb  zdo_app.o [1]
+zdo_join_done           0x0800b865    0x24  Code  Gb  zdo_app.o [1]
+zdo_lqi_resp            0x0800c88b   0x216  Code  Gb  zdo_nwk_manage_srv.o [1]
+zdo_main_loop           0x0800b4f5     0x8  Code  Gb  zdo_app.o [1]
+zdo_match_desc_res      0x0800d9c9   0x2b0  Code  Gb  zdo_disc_srv.o [1]
+zdo_mgmt_leave_srv      0x0800caa1   0x148  Code  Gb  zdo_nwk_manage_srv.o [1]
+zdo_send_desc_resp      0x0800cf5d    0xee  Code  Gb  zdo_disc_srv.o [1]
+zdo_send_device_annce   0x0800b9c1    0xc4  Code  Gb  zdo_app.o [1]
+zdo_send_req            0x0800bf7f    0x72  Code  Lc  zdo_common.o [1]
+zdo_send_req_by_short   0x0800bf19    0x66  Code  Gb  zdo_common.o [1]
+zdo_send_resp_by_short  0x0800bff1    0x76  Code  Gb  zdo_common.o [1]
+zdo_send_simple_desc_resp
+                        0x0800d04b   0x130  Code  Gb  zdo_disc_srv.o [1]
+zdo_system_server_discovery_res
+                        0x0800c7f5    0x96  Code  Gb  zdo_nwk_manage_srv.o [1]
+zdo_try_mgmt_leave_complete
+                        0x0800cd17    0x9a  Code  Gb  zdo_nwk_manage_srv.o [1]
+zdo_try_send_mgmt_leave_rsp
+                        0x0800cbe9   0x12e  Code  Gb  zdo_nwk_manage_srv.o [1]
+
+
+[1] = D:\ZZZ\ORI-PRJ\Project\STM32F2xx_StdPeriph_Template\EWARM\NODE-ZC\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  70 676 bytes of readonly  code memory
+     716 bytes of readonly  data memory
+  24 120 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
